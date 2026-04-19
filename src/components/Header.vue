@@ -16,11 +16,11 @@
         :class="syncColorClass"
         :title="syncTitle"
       >
-        <svg class="w-5 h-5" :class="{ 'animate-spin': gistSync.isSyncing.value }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-5 h-5" :class="{ 'animate-spin': gistSync.isSyncing }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
         </svg>
-        <span v-if="gistSync.isConfigured.value && gistSync.syncError.value"
+        <span v-if="gistSync.isConfigured && gistSync.syncError"
           class="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 bg-red-500 rounded-full"></span>
       </button>
       <button
@@ -46,16 +46,16 @@ const store = useToolsStore()
 const gistSync = store.gistSync
 
 const syncColorClass = computed(() => {
-  if (!gistSync.isConfigured.value) return 'text-[#A0AEC0]'
-  if (gistSync.isSyncing.value) return 'text-blue-500'
-  if (gistSync.syncError.value) return 'text-red-400'
+  if (!gistSync.isConfigured) return 'text-[#A0AEC0]'
+  if (gistSync.isSyncing) return 'text-blue-500'
+  if (gistSync.syncError) return 'text-red-400'
   return 'text-[var(--role-accent)]'
 })
 
 const syncTitle = computed(() => {
-  if (!gistSync.isConfigured.value) return '配置云端同步'
-  if (gistSync.isSyncing.value) return '同步中...'
-  if (gistSync.syncError.value) return '同步失败'
+  if (!gistSync.isConfigured) return '配置云端同步'
+  if (gistSync.isSyncing) return '同步中...'
+  if (gistSync.syncError) return '同步失败'
   return '云端同步'
 })
 </script>

@@ -5,10 +5,10 @@
       <button
         v-for="cat in ['全部', ...store.currentCategories]"
         :key="cat"
-        @click="store.selectedCategory = store.selectedCategory === cat ? '' : cat"
+        @click="store.selectedCategory = cat === '全部' ? '' : (store.selectedCategory === cat ? '' : cat)"
         :class="[
           'px-4 py-2 rounded-2xl text-xs font-semibold whitespace-nowrap transition-all duration-300 shrink-0 flex items-center gap-1.5',
-          store.selectedCategory === cat
+          (cat === '全部' ? !store.selectedCategory : store.selectedCategory === cat)
             ? 'shadow-neu-inset text-[var(--role-accent)]'
             : 'neu-flat-sm text-[#6B7280] hover:text-[#3D4852]'
         ]"

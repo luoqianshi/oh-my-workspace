@@ -6,10 +6,10 @@
     <ul class="space-y-2">
       <li v-for="cat in ['全部', ...store.currentCategories]" :key="cat">
         <button
-          @click="store.selectedCategory = store.selectedCategory === cat ? '' : cat"
+          @click="store.selectedCategory = cat === '全部' ? '' : (store.selectedCategory === cat ? '' : cat)"
           :class="[
             'w-full text-left px-4 py-3 rounded-2xl text-sm font-medium transition-all duration-300 flex items-center justify-between',
-            store.selectedCategory === cat
+            (cat === '全部' ? !store.selectedCategory : store.selectedCategory === cat)
               ? 'shadow-neu-inset text-[var(--role-accent)] font-semibold'
               : 'neu-flat-sm text-[#6B7280] hover:text-[#3D4852] hover:shadow-neu'
           ]"
@@ -20,7 +20,7 @@
           </span>
           <span :class="[
             'text-xs px-2 py-0.5 rounded-full',
-            store.selectedCategory === cat
+            (cat === '全部' ? !store.selectedCategory : store.selectedCategory === cat)
               ? 'bg-[var(--role-accent)]/15 text-[var(--role-accent)]'
               : 'bg-[#E0E5EC] shadow-neu-inset-sm text-[#6B7280]'
           ]">{{ store.categoryCounts[cat] || 0 }}</span>

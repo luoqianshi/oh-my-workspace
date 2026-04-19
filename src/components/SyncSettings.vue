@@ -22,7 +22,7 @@
         <!-- 内容 -->
         <div class="flex-1 overflow-y-auto px-5 pb-4">
           <!-- 未配置：设置区 -->
-          <template v-if="!gistSync.isConfigured.value">
+          <template v-if="!gistSync.isConfigured">
             <div class="mb-4">
               <label class="block text-sm text-[#6B7280] mb-1.5 font-medium">Personal Access Token</label>
               <div class="relative">
@@ -92,12 +92,12 @@
             <div class="p-4 rounded-2xl neu-flat-sm mb-4">
               <div class="flex items-center gap-3 mb-3">
                 <div class="w-10 h-10 rounded-xl flex items-center justify-center"
-                  :class="gistSync.isSyncing.value ? 'bg-blue-50' : gistSync.syncError.value ? 'bg-red-50' : 'bg-green-50'">
-                  <svg v-if="gistSync.isSyncing.value" class="w-5 h-5 text-blue-500 animate-spin" fill="none" viewBox="0 0 24 24">
+                  :class="gistSync.isSyncing ? 'bg-blue-50' : gistSync.syncError ? 'bg-red-50' : 'bg-green-50'">
+                  <svg v-if="gistSync.isSyncing" class="w-5 h-5 text-blue-500 animate-spin" fill="none" viewBox="0 0 24 24">
                     <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                     <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
                   </svg>
-                  <svg v-else-if="gistSync.syncError.value" class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg v-else-if="gistSync.syncError" class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
                   <svg v-else class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -106,24 +106,24 @@
                 </div>
                 <div>
                   <p class="text-sm font-semibold text-[#3D4852]">
-                    {{ gistSync.isSyncing.value ? '同步中...' : gistSync.syncError.value ? '同步失败' : '已同步' }}
+                    {{ gistSync.isSyncing ? '同步中...' : gistSync.syncError ? '同步失败' : '已同步' }}
                   </p>
-                  <p v-if="gistSync.lastSyncAt.value" class="text-xs text-[#6B7280]">
-                    {{ formatTime(gistSync.lastSyncAt.value) }}
+                  <p v-if="gistSync.lastSyncAt" class="text-xs text-[#6B7280]">
+                    {{ formatTime(gistSync.lastSyncAt) }}
                   </p>
                 </div>
               </div>
-              <div v-if="gistSync.syncError.value" class="text-xs text-red-500 mt-1">
-                {{ gistSync.syncError.value }}
+              <div v-if="gistSync.syncError" class="text-xs text-red-500 mt-1">
+                {{ gistSync.syncError }}
               </div>
             </div>
 
             <!-- Gist 信息 -->
             <div class="p-4 rounded-2xl neu-flat-sm mb-4">
               <p class="text-xs text-[#6B7280] mb-1">Gist ID</p>
-              <a :href="`https://gist.github.com/${gistSync.gistId.value}`" target="_blank"
+              <a :href="`https://gist.github.com/${gistSync.gistId}`" target="_blank"
                 class="text-sm text-[var(--role-accent)] font-mono underline break-all">
-                {{ gistSync.gistId.value }}
+                {{ gistSync.gistId }}
               </a>
             </div>
 
@@ -133,24 +133,24 @@
                 <p class="text-sm font-medium text-[#3D4852]">自动推送</p>
                 <p class="text-xs text-[#6B7280]">修改工具后 3 秒自动同步</p>
               </div>
-              <button @click="gistSync.autoPushEnabled.value = !gistSync.autoPushEnabled.value"
+              <button @click="gistSync.autoPushEnabled = !gistSync.autoPushEnabled"
                 class="w-12 h-7 rounded-full transition-all duration-300 relative"
-                :class="gistSync.autoPushEnabled.value ? 'bg-[var(--role-accent)]' : 'bg-[#A0AEC0]'">
+                :class="gistSync.autoPushEnabled ? 'bg-[var(--role-accent)]' : 'bg-[#A0AEC0]'">
                 <div class="w-5 h-5 bg-white rounded-full absolute top-1 transition-all duration-300 shadow-md"
-                  :class="gistSync.autoPushEnabled.value ? 'left-6' : 'left-1'"></div>
+                  :class="gistSync.autoPushEnabled ? 'left-6' : 'left-1'"></div>
               </button>
             </div>
 
             <!-- 操作按钮 -->
             <div class="space-y-2">
-              <button @click="handlePush" :disabled="gistSync.isSyncing.value"
+              <button @click="handlePush" :disabled="gistSync.isSyncing"
                 class="w-full px-4 py-3 rounded-2xl neu-accent text-sm font-semibold flex items-center justify-center gap-2 disabled:opacity-50">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
                 </svg>
                 推送到云端
               </button>
-              <button @click="handlePull" :disabled="gistSync.isSyncing.value"
+              <button @click="handlePull" :disabled="gistSync.isSyncing"
                 class="w-full px-4 py-3 rounded-2xl neu-btn text-sm text-[#6B7280] font-medium flex items-center justify-center gap-2 disabled:opacity-50">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />

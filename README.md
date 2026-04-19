@@ -16,6 +16,7 @@
 - **🔍 实时搜索** — 支持按名称、描述、标签模糊搜索，200ms 防抖
 - **📂 分类导航** — 31 个分类，每个角色独立分类体系
 - **🔧 工具管理** — 支持添加、编辑、删除工具，数据自动持久化到 localStorage
+- **☁️ 云端同步** — 基于 GitHub Gist 实现跨设备数据同步，PAT 认证，自动推送 + 手动拉取
 - **📦 导入/导出** — JSON 格式导入导出，方便备份和迁移
 - **📱 响应式布局** — 桌面端侧边栏 + 移动端横向分类，适配各种屏幕
 - **🖼️ IconPark 图标** — 200+ 工具图标映射，统一 SVG 风格
@@ -46,12 +47,14 @@ ai-toolbox/
 │   ├── data/
 │   │   └── tools.json            # 工具数据源（268 个工具）
 │   ├── constants/
-│   │   └── roles.js              # 角色定义与分类配置
+│   │   ├── roles.js              # 角色定义与分类配置
+│   │   └── storage.js            # localStorage key 统一管理 + 安全存取
 │   ├── stores/
-│   │   └── tools.js              # Pinia Store（CRUD / 搜索 / 导入导出）
+│   │   └── tools.js              # Pinia Store（CRUD / 搜索 / 导入导出 / Gist 同步）
 │   ├── composables/
 │   │   ├── useSearch.js          # 搜索防抖逻辑
-│   │   └── useTheme.js           # 角色主题切换
+│   │   ├── useTheme.js           # 角色主题切换
+│   │   └── useGistSync.js        # GitHub Gist 同步（API 封装 / 推送 / 拉取 / 自动同步）
 │   ├── components/
 │   │   ├── Header.vue            # 顶部导航栏
 │   │   ├── RoleTabBar.vue        # 角色切换 Tab
@@ -61,6 +64,7 @@ ai-toolbox/
 │   │   ├── SearchBar.vue         # 搜索框（凹陷效果）
 │   │   ├── ToolIcon.vue          # IconPark 图标映射组件
 │   │   ├── ManagePanel.vue       # 管理侧边抽屉
+│   │   ├── SyncSettings.vue      # 云端同步设置面板
 │   │   ├── ToolForm.vue          # 添加/编辑表单
 │   │   └── EmptyState.vue        # 空状态提示
 │   └── styles/
@@ -143,6 +147,7 @@ npx netlify deploy --prod --dir=dist
 
 - **默认数据**：`src/data/tools.json`，首次加载时使用
 - **用户修改**：自动保存到浏览器 `localStorage`（key: `luo-toolbox-data`）
+- **云端同步**：通过 GitHub Gist 跨设备同步数据（详见下方）
 - **重置数据**：管理面板 → 重置为默认数据
 
 ### 批量管理
@@ -150,6 +155,31 @@ npx netlify deploy --prod --dir=dist
 - **导出**：管理面板 → 导出 JSON，下载当前所有工具数据
 - **导入**：管理面板 → 导入 JSON，上传 JSON 文件覆盖当前数据
 - **直接编辑**：修改 `src/data/tools.json` 后重新构建即可
+
+## 云端同步
+
+基于 GitHub Gist 实现跨设备/跨浏览器的工具数据同步，无需后端服务。
+
+### 配置步骤
+
+1. 点击 Header 右侧云朵图标，打开同步设置面板
+2. 在 [GitHub Token 设置页](https://github.com/settings/tokens/new) 创建一个 **fine-grained token**，只需勾选 `gist` 权限
+3. 将 Token 粘贴到输入框中，点击「创建新 Gist」
+4. 配置成功后，云朵图标变为蓝色，表示已连接
+
+### 跨设备使用
+
+1. 在新设备上打开同步设置面板
+2. 输入相同的 PAT，点击「关联已有 Gist」
+3. 输入 Gist ID（可从 GitHub Gist 页面获取），点击「关联并拉取」
+4. 数据自动从云端拉取到本地
+
+### 同步机制
+
+- **自动推送**：每次修改工具后，3 秒自动推送到 Gist（可在设置中关闭）
+- **手动同步**：支持手动「推送到云端」和「从云端拉取」
+- **冲突策略**：Last Write Wins（最后同步覆盖），以云端为准
+- **安全存储**：PAT 使用 Base64 编码存储在 localStorage 中，key 统一管理于 `src/constants/storage.js`
 
 ## 角色与分类
 

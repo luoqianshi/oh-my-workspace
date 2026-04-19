@@ -36,12 +36,6 @@
   --role-accent-rgb: 139, 92, 246;
 }
 
-[data-role="life"] {
-  --role-accent: #ec4899;
-  --role-accent-light: #f472b6;
-  --role-accent-rgb: 236, 72, 153;
-}
-
 /* Neumorphism 阴影工具类 */
 .neu-flat {
   background: var(--neu-bg);
@@ -120,4 +114,44 @@
 /* 平滑滚动 */
 html {
   scroll-behavior: smooth;
+}
+
+/* 移动端优化 */
+@supports (-webkit-touch-callout: none) {
+  /* iOS 安全区域适配 */
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+}
+
+/* 移动端隐藏滚动条但保留滚动功能 */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* 移动端触摸优化 - 减少hover延迟 */
+@media (hover: none) {
+  .neu-btn:hover {
+    transform: none;
+    box-shadow: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
+  }
+  .neu-accent:hover {
+    transform: none;
+    background: var(--role-accent);
+    box-shadow: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
+  }
+}
+
+/* 小屏幕下减少动画以提升性能 */
+@media (max-width: 640px) {
+  .neu-btn,
+  .neu-accent,
+  .neu-flat,
+  .neu-flat-sm {
+    transition-duration: 0.15s;
+  }
 }

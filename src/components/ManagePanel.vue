@@ -1,8 +1,8 @@
 <template>
   <Teleport to="body">
-    <div v-if="open" class="fixed inset-0 z-50 flex justify-end">
+    <div v-if="open" class="fixed inset-0 z-50 flex sm:justify-end items-end sm:items-stretch">
       <div class="absolute inset-0 bg-black/20 backdrop-blur-sm" @click="$emit('close')"></div>
-      <div class="relative w-full max-w-md bg-[#E0E5EC] rounded-l-[32px] shadow-neu-hover flex flex-col">
+      <div class="relative w-full sm:max-w-md bg-[#E0E5EC] rounded-t-[24px] sm:rounded-l-[32px] sm:rounded-tr-none shadow-neu-hover flex flex-col h-[85vh] sm:h-auto sm:min-h-[400px]">
         <!-- 头部 -->
         <div class="flex items-center justify-between p-5 shrink-0">
           <h2 class="text-lg font-display font-bold text-[#3D4852] flex items-center gap-2">

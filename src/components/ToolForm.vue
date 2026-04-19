@@ -1,7 +1,7 @@
 <template>
-  <div class="fixed inset-0 z-[60] flex items-center justify-center p-4">
+  <div class="fixed inset-0 z-[60] flex items-end sm:items-center justify-center p-0 sm:p-4">
     <div class="absolute inset-0 bg-black/20 backdrop-blur-sm" @click="$emit('cancel')"></div>
-    <div class="relative w-full max-w-lg bg-[#E0E5EC] rounded-[32px] shadow-neu-hover p-8">
+    <div class="relative w-full sm:max-w-lg bg-[#E0E5EC] rounded-t-[24px] sm:rounded-[32px] shadow-neu-hover p-5 sm:p-8 max-h-[90vh] overflow-y-auto">
       <h3 class="text-lg font-display font-bold text-[#3D4852] mb-6">{{ isEdit ? '编辑工具' : '添加工具' }}</h3>
 
       <div class="space-y-4">

@@ -36,11 +36,11 @@ watch(() => store.currentRole, (newRole) => {
     <RoleTabBar />
     <main class="flex">
       <CategoryNav class="hidden lg:block" />
-      <div class="flex-1 p-4 lg:p-8">
+      <div class="flex-1 p-3 sm:p-4 lg:p-8">
         <ToolGrid />
       </div>
     </main>
-    <footer class="text-center py-8 text-xs text-[#6B7280]">
+    <footer class="text-center py-6 sm:py-8 text-xs text-[#6B7280]">
       <p>骆的工具箱 — 用不同身份，发现不同工具</p>
     </footer>
     <ManagePanel :open="showManage" @close="showManage = false" />

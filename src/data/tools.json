@@ -3401,7 +3401,7 @@
       "description": "新一代效率工具平台，插件化设计",
       "icon": "🔧",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "效率",
         "工具",
@@ -3418,7 +3418,7 @@
       "description": "文件自动同步云盘和团队协作工具",
       "icon": "☁️",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "云盘",
         "同步",
@@ -3435,7 +3435,7 @@
       "description": "大文件传输工具，不限速",
       "icon": "📤",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "传输",
         "大文件",
@@ -3452,7 +3452,7 @@
       "description": "浏览器新标签页效率扩展",
       "icon": "🌐",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "新标签页",
         "浏览器",
@@ -3469,7 +3469,7 @@
       "description": "在线加密解密、正则测试等工具集合",
       "icon": "🛠️",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "在线工具",
         "加密",
@@ -3486,7 +3486,7 @@
       "description": "在线打字练习和指法训练平台",
       "icon": "⌨️",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "打字",
         "练习",
@@ -3503,7 +3503,7 @@
       "description": "在线打字练习网站，提高打字速度",
       "icon": "👆",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "打字",
         "练习",
@@ -3520,7 +3520,7 @@
       "description": "专业的网络测速工具",
       "icon": "📶",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "测速",
         "网速",
@@ -3537,7 +3537,7 @@
       "description": "免费体验多种大模型AI的浏览器工具",
       "icon": "🌐",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "AI",
         "浏览器",
@@ -3554,7 +3554,7 @@
       "description": "AI智能浏览器，提升浏览效率",
       "icon": "🧠",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "AI",
         "浏览器",
@@ -3571,7 +3571,7 @@
       "description": "AI工具集导航网站",
       "icon": "🧭",
       "category": "效率工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "AI",
         "导航",
@@ -3588,7 +3588,7 @@
       "description": "免费在线AI抠图工具",
       "icon": "✂️",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "抠图",
         "AI",
@@ -3605,7 +3605,7 @@
       "description": "在线图片压缩工具，支持多种格式",
       "icon": "📦",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "图片",
         "压缩",
@@ -3622,7 +3622,7 @@
       "description": "免费在线图片编辑器和海报设计",
       "icon": "🖼️",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "图片",
         "编辑",
@@ -3639,7 +3639,7 @@
       "description": "多功能在线图片编辑处理工具",
       "icon": "🦆",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "图片",
         "编辑",
@@ -3656,7 +3656,7 @@
       "description": "AI一键抠图和图片处理工具",
       "icon": "🐿️",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "抠图",
         "AI",
@@ -3673,7 +3673,7 @@
       "description": "AI智能证件照制作工具",
       "icon": "📸",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "证件照",
         "AI",
@@ -3690,7 +3690,7 @@
       "description": "开源AI证件照制作算法",
       "icon": "🪪",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "证件照",
         "AI",
@@ -3707,7 +3707,7 @@
       "description": "AI在线人声分离和伴奏提取工具",
       "icon": "🎵",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "音频",
         "人声分离",
@@ -3724,7 +3724,7 @@
       "description": "语音转文字和文字转语音工具",
       "icon": "🎙️",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "语音",
         "转文字",
@@ -3741,7 +3741,7 @@
       "description": "在线视频压缩工具",
       "icon": "🐼",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "视频",
         "压缩",
@@ -3758,7 +3758,7 @@
       "description": "全能在线文件格式转换工具",
       "icon": "🔄",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "转换",
         "格式",
@@ -3775,7 +3775,7 @@
       "description": "在线视频编辑和处理工具",
       "icon": "🎬",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "视频",
         "编辑",
@@ -3792,7 +3792,7 @@
       "description": "免费在线简历制作工具",
       "icon": "📄",
       "category": "设计工具",
-      "role": "life",
+      "role": "student",
       "tags": [
         "简历",
         "制作",
@@ -3803,64 +3803,13 @@
       "pinned": false
     },
     {
-      "id": "lol",
-      "name": "英雄联盟",
-      "url": "https://lol.qq.com/",
-      "description": "腾讯出品的MOBA竞技游戏",
-      "icon": "🎮",
-      "category": "娱乐",
-      "role": "life",
-      "tags": [
-        "游戏",
-        "LOL",
-        "竞技",
-        "腾讯"
-      ],
-      "addedAt": "2024-01-01",
-      "pinned": false
-    },
-    {
-      "id": "music163",
-      "name": "网易云音乐",
-      "url": "https://music.163.com/",
-      "description": "高品质音乐流媒体平台",
-      "icon": "🎵",
-      "category": "娱乐",
-      "role": "life",
-      "tags": [
-        "音乐",
-        "网易云",
-        "播放",
-        "歌单"
-      ],
-      "addedAt": "2024-01-01",
-      "pinned": false
-    },
-    {
-      "id": "qqmusic",
-      "name": "QQ音乐",
-      "url": "https://y.qq.com/",
-      "description": "腾讯旗下音乐流媒体平台",
-      "icon": "🎶",
-      "category": "娱乐",
-      "role": "life",
-      "tags": [
-        "音乐",
-        "QQ音乐",
-        "播放",
-        "歌单"
-      ],
-      "addedAt": "2024-01-01",
-      "pinned": false
-    },
-    {
       "id": "xuexi",
       "name": "学习强国",
       "url": "https://www.xuexi.cn/",
       "description": "党员干部理论学习平台",
       "icon": "📚",
       "category": "实用网站",
-      "role": "life",
+      "role": "student",
       "tags": [
         "学习",
         "党建",
@@ -3877,7 +3826,7 @@
       "description": "全国图书馆文献传递和参考咨询",
       "icon": "🏛️",
       "category": "实用网站",
-      "role": "life",
+      "role": "student",
       "tags": [
         "图书馆",
         "文献",
@@ -3894,7 +3843,7 @@
       "description": "卫星地图和谷歌地球中文地标分享",
       "icon": "🌍",
       "category": "实用网站",
-      "role": "life",
+      "role": "student",
       "tags": [
         "地图",
         "卫星",
@@ -3911,7 +3860,7 @@
       "description": "中国共产党官方门户网站",
       "icon": "🚩",
       "category": "实用网站",
-      "role": "life",
+      "role": "student",
       "tags": [
         "党建",
         "党员",
@@ -3928,7 +3877,7 @@
       "description": "优质创作社区和博客平台",
       "icon": "✍️",
       "category": "实用网站",
-      "role": "life",
+      "role": "student",
       "tags": [
         "写作",
         "博客",
@@ -3945,7 +3894,7 @@
       "description": "阿里巴巴旗下综合电商平台",
       "icon": "🛒",
       "category": "实用网站",
-      "role": "life",
+      "role": "student",
       "tags": [
         "购物",
         "电商",
@@ -3962,7 +3911,7 @@
       "description": "综合图书和音像制品电商平台",
       "icon": "📖",
       "category": "实用网站",
-      "role": "life",
+      "role": "student",
       "tags": [
         "图书",
         "购物",
@@ -3979,7 +3928,7 @@
       "description": "中国最大的社交媒体平台",
       "icon": "📢",
       "category": "实用网站",
-      "role": "life",
+      "role": "student",
       "tags": [
         "社交",
         "微博",
@@ -3996,7 +3945,7 @@
       "description": "腾讯旗下在线视频平台",
       "icon": "📺",
       "category": "实用网站",
-      "role": "life",
+      "role": "student",
       "tags": [
         "视频",
         "腾讯",

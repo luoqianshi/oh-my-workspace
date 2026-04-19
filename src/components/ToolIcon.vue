@@ -9,8 +9,8 @@ import {
   Laptop, NetworkTree, Server, DatabasePoint, Rocket, Link, Folder, Pencil,
   People, Broadcast, ChartHistogram, FileCollection,
   ReadBook, ElectronicPen, Trophy, Video, MapRoad,
-  Lightning, FormatBrush, Game, Globe,
-  Robot, Star, BachelorCap, Tool, Compass, Setting, Close,
+  Lightning, FormatBrush, Globe,
+  Robot, BachelorCap, Tool, Compass, Setting, Close,
   Plus, Download, Upload, Refresh, Delete, Check,
   AllApplication, HamburgerButton, PreviewOpen
 } from '@icon-park/vue-next'
@@ -95,13 +95,13 @@ const categoryIconMap = {
   'DevOps': Rocket, 'API/网络': Link, '代码托管': Folder, 'IDE/编辑器': Laptop,
   '办公协作': People, '通知发布': Broadcast, '数据统计': ChartHistogram, '文档管理': FileCollection,
   '课程学习': ReadBook, '考试备考': ElectronicPen, '竞赛刷题': Trophy, '视频教程': Video, '学习路线': MapRoad,
-  '效率工具': Lightning, '设计工具': FormatBrush, '娱乐': Game, '实用网站': Globe,
+  '效率工具': Lightning, '设计工具': FormatBrush, '实用网站': Globe,
 }
 
 // 角色 → 图标映射
 const roleIconMap = {
   'graduate': BachelorCap, 'engineer': Laptop, 'counselor': People,
-  'student': ReadBook, 'life': Star,
+  'student': ReadBook,
 }
 
 // 通用图标映射（用于未匹配的工具）

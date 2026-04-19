@@ -1,36 +1,36 @@
 <template>
   <div>
     <!-- 移动端分类选择器 -->
-    <div class="lg:hidden mb-5 flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+    <div class="lg:hidden mb-4 sm:mb-5 flex gap-1.5 sm:gap-2 overflow-x-auto pb-2 scrollbar-hide -mx-1 px-1">
       <button
         v-for="cat in ['全部', ...store.currentCategories]"
         :key="cat"
         @click="store.selectedCategory = cat === '全部' ? '' : (store.selectedCategory === cat ? '' : cat)"
         :class="[
-          'px-4 py-2 rounded-2xl text-xs font-semibold whitespace-nowrap transition-all duration-300 shrink-0 flex items-center gap-1.5',
+          'px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl sm:rounded-2xl text-xs font-semibold whitespace-nowrap transition-all duration-300 shrink-0 flex items-center gap-1 sm:gap-1.5',
           (cat === '全部' ? !store.selectedCategory : store.selectedCategory === cat)
             ? 'shadow-neu-inset text-[var(--role-accent)]'
             : 'neu-flat-sm text-[#6B7280] hover:text-[#3D4852]'
         ]"
       >
-        <ToolIcon :name="cat" :size="14" />
+        <ToolIcon :name="cat" :size="12" />
         {{ cat }}
       </button>
     </div>
 
     <!-- 工具数量 -->
-    <div class="flex items-center justify-between mb-5">
-      <p class="text-sm text-[#6B7280] font-medium">
+    <div class="flex items-center justify-between mb-4 sm:mb-5">
+      <p class="text-xs sm:text-sm text-[#6B7280] font-medium">
         共 <span class="text-[var(--role-accent)] font-bold">{{ store.filteredTools.length }}</span> 个工具
       </p>
-      <p v-if="store.searchQuery" class="text-sm text-[#6B7280]">
+      <p v-if="store.searchQuery" class="text-xs sm:text-sm text-[#6B7280]">
         搜索: "{{ store.searchQuery }}"
       </p>
     </div>
 
     <!-- 卡片网格 -->
     <div v-if="store.filteredTools.length > 0"
-      class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6"
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 sm:gap-6"
     >
       <ToolCard v-for="tool in store.filteredTools" :key="tool.id" :tool="tool" />
     </div>

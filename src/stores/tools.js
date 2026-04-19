@@ -1,11 +1,14 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import { ROLES } from '../constants/roles'
+import { STORAGE_KEYS } from '../constants/storage'
+import { useGistSync } from '../composables/useGistSync'
 import defaultTools from '../data/tools.json'
 
-const STORAGE_KEY = 'luo-toolbox-data'
+const STORAGE_KEY = STORAGE_KEYS.TOOLS_DATA
 
 export const useToolsStore = defineStore('tools', () => {
+  const gistSync = useGistSync()
   const tools = ref([])
   const currentRole = ref('graduate')
   const searchQuery = ref('')
@@ -42,7 +45,21 @@ export const useToolsStore = defineStore('tools', () => {
     return result
   })
 
-  function loadTools() {
+  async function loadTools() {
+    // 如果已配置 Gist，优先从 Gist 拉取
+    if (gistSync.isConfigured.value) {
+      try {
+        const data = await gistSync.pull()
+        if (data && data.tools && Array.isArray(data.tools)) {
+          tools.value = data.tools
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(tools.value))
+          return
+        }
+      } catch (e) {
+        console.warn('Gist 拉取失败，回退到本地数据:', e)
+      }
+    }
+    // 回退到 localStorage
     const saved = localStorage.getItem(STORAGE_KEY)
     if (saved) {
       try {
@@ -57,6 +74,8 @@ export const useToolsStore = defineStore('tools', () => {
 
   function saveTools() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(tools.value))
+    // 触发自动推送到 Gist
+    gistSync.scheduleAutoPush(tools.value)
   }
 
   function addTool(tool) {
@@ -125,12 +144,14 @@ export const useToolsStore = defineStore('tools', () => {
   function resetToDefault() {
     localStorage.removeItem(STORAGE_KEY)
     tools.value = defaultTools.tools || []
+    saveTools()
   }
 
   return {
     tools, currentRole, searchQuery, selectedCategory,
     roles, currentCategories, categoryCounts, filteredTools,
     loadTools, saveTools, addTool, updateTool, deleteTool,
-    exportJSON, importJSON, resetToDefault
+    exportJSON, importJSON, resetToDefault,
+    gistSync
   }
 })

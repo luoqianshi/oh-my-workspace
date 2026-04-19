@@ -1,0 +1,4536 @@
+{
+  "tools": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "description": "OpenAI的AI对话助手，支持GPT-4o多模态",
+      "icon": "🤖",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "GPT",
+        "OpenAI"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai/",
+      "description": "Anthropic出品的AI对话助手，擅长长文本和编程",
+      "icon": "🧠",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "Claude",
+        "Anthropic"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "url": "https://gemini.google.com/",
+      "description": "Google推出的多模态AI对话助手",
+      "icon": "💎",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "Google",
+        "Gemini"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com/",
+      "description": "深度求索推出的AI对话助手，擅长代码和推理",
+      "icon": "🔍",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "DeepSeek",
+        "推理"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "doubao",
+      "name": "豆包",
+      "url": "https://www.doubao.com/",
+      "description": "字节跳动推出的AI智能助手",
+      "icon": "🫘",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "字节跳动",
+        "豆包"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": true
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "url": "https://kimi.moonshot.cn/",
+      "description": "月之暗面推出的AI助手，擅长长文本处理",
+      "icon": "🌙",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "长文本",
+        "Kimi"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "metaso",
+      "name": "秘塔AI搜索",
+      "url": "https://metaso.cn/",
+      "description": "秘塔科技推出的AI搜索引擎，无广告直达答案",
+      "icon": "🔎",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "搜索",
+        "秘塔"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "zhipu",
+      "name": "智谱清言",
+      "url": "https://chatglm.cn/",
+      "description": "智谱AI推出的基于GLM大模型的对话助手",
+      "icon": "💬",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "GLM",
+        "智谱"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "yuanbao",
+      "name": "腾讯元宝",
+      "url": "https://yuanbao.tencent.com/",
+      "description": "腾讯推出的AI助手，集成搜索和创作能力",
+      "icon": "🪙",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "腾讯",
+        "元宝"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "qwen",
+      "name": "通义千问",
+      "url": "https://tongyi.aliyun.com/qianwen/",
+      "description": "阿里云推出的大模型对话助手",
+      "icon": "☁️",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "阿里",
+        "通义"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "yiyan",
+      "name": "文心一言",
+      "url": "https://yiyan.baidu.com/",
+      "description": "百度推出的AI大模型对话助手",
+      "icon": "✍️",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "百度",
+        "文心"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "xinghuo",
+      "name": "讯飞星火",
+      "url": "https://xinghuo.xfyun.cn/",
+      "description": "科大讯飞推出的AI认知智能助手",
+      "icon": "⭐",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "讯飞",
+        "星火"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "url": "https://grok.com/",
+      "description": "xAI推出的AI对话助手，实时获取信息",
+      "icon": "🚀",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "xAI",
+        "Grok"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "sider",
+      "name": "Sider",
+      "url": "https://sider.ai/",
+      "description": "浏览器AI侧边栏，支持GPT/Claude/Gemini",
+      "icon": "📌",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "浏览器",
+        "侧边栏",
+        "Sider"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "longcat",
+      "name": "LongCat AI",
+      "url": "https://longcat.chat/",
+      "description": "支持超长上下文的AI对话平台",
+      "icon": "🐱",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "对话",
+        "长上下文"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "chatbox",
+      "name": "Chatbox",
+      "url": "https://chatboxai.app/",
+      "description": "全平台AI客户端，支持多种大模型",
+      "icon": "📦",
+      "category": "AI对话",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "客户端",
+        "多模型"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://www.cursor.com/",
+      "description": "AI驱动的代码编辑器，智能编程提效",
+      "icon": "🎯",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "编辑器",
+        "Cursor"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "coze",
+      "name": "扣子",
+      "url": "https://www.coze.cn/",
+      "description": "字节跳动AI Agent开发平台，零代码构建智能体",
+      "icon": "🤖",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "Agent",
+        "扣子",
+        "字节"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": true
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "url": "https://manus.im/",
+      "description": "通用AI Agent，可自主完成复杂任务",
+      "icon": "🧑‍💻",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "Agent",
+        "Manus"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": true
+    },
+    {
+      "id": "trae",
+      "name": "TRAE",
+      "url": "https://www.trae.cn/",
+      "description": "字节跳动推出的AI编程助手和IDE",
+      "icon": "⚡",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "字节",
+        "TRAE"
+      ],
+      "addedAt": "2025-03-01",
+      "pinned": false
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "url": "https://codeium.com/",
+      "description": "Codeium推出的AI代码编辑器",
+      "icon": "🏄",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "Codeium"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot/",
+      "description": "GitHub官方AI编程助手，实时代码补全",
+      "icon": "🐙",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "GitHub",
+        "Copilot"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "codegeex",
+      "name": "CodeGeeX",
+      "url": "https://codegeex.cn/",
+      "description": "智谱AI推出的免费AI编程助手",
+      "icon": "💻",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "智谱",
+        "CodeGeeX"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "comate",
+      "name": "文心快码",
+      "url": "https://comate.baidu.com/",
+      "description": "百度推出的AI智能代码助手",
+      "icon": "🧑‍💻",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "百度",
+        "Comate"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "codebuddy",
+      "name": "腾讯CodeBuddy",
+      "url": "https://www.codebuddy.cn/",
+      "description": "腾讯云推出的AI代码助手和Agent平台",
+      "icon": "🤝",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "腾讯",
+        "CodeBuddy"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "url": "https://opencode.ai/",
+      "description": "开源AI编程助手，支持多种模型",
+      "icon": "🔓",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "开源"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "codex",
+      "name": "OpenAI Codex",
+      "url": "https://openai.com/codex/",
+      "description": "OpenAI推出的云端AI编码助手",
+      "icon": "🧬",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "OpenAI",
+        "Codex"
+      ],
+      "addedAt": "2025-03-01",
+      "pinned": false
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "url": "https://qoder.com/",
+      "description": "智能体编程平台，AI辅助开发",
+      "icon": "⚡",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "Qoder"
+      ],
+      "addedAt": "2025-03-01",
+      "pinned": false
+    },
+    {
+      "id": "autoglm",
+      "name": "AutoGLM",
+      "url": "https://autoglm.zhipuai.cn/",
+      "description": "智谱AI推出的手机AI Agent",
+      "icon": "📱",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "Agent",
+        "智谱",
+        "AutoGLM"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "flowith",
+      "name": "Flowith AI",
+      "url": "https://flowith.io/",
+      "description": "AI驱动的智能工作空间",
+      "icon": "🌊",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "Agent",
+        "Flowith"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "codeflying",
+      "name": "码上飞",
+      "url": "https://www.codeflying.net/",
+      "description": "用自然语言开发软件的全自动免费平台",
+      "icon": "✈️",
+      "category": "AI编程",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "编程",
+        "低代码",
+        "自然语言"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com/",
+      "description": "顶级AI图像生成工具，艺术风格出众",
+      "icon": "🎨",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "绘画",
+        "Midjourney"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "liblibai",
+      "name": "LiblibAI",
+      "url": "https://www.liblib.art/",
+      "description": "中国领先的AI绘画创作平台",
+      "icon": "🖼️",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "绘画",
+        "LiblibAI",
+        "SD"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": true
+    },
+    {
+      "id": "klingai",
+      "name": "可灵AI",
+      "url": "https://app.klingai.com/",
+      "description": "快手推出的新一代AI视频生成平台",
+      "icon": "🎬",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "视频",
+        "可灵",
+        "快手"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": true
+    },
+    {
+      "id": "jimeng",
+      "name": "即梦AI",
+      "url": "https://jimeng.jianying.com/",
+      "description": "字节跳动旗下的一站式AI创作平台",
+      "icon": "💭",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "绘画",
+        "即梦",
+        "字节"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "hailuoai",
+      "name": "海螺AI视频",
+      "url": "https://hailuoai.com/",
+      "description": "MiniMax推出的AI视频生成工具",
+      "icon": "🐚",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "视频",
+        "海螺",
+        "MiniMax"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "url": "https://www.lovart.ai/",
+      "description": "全球首个AI设计智能体，自动化平面设计",
+      "icon": "🎭",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "设计",
+        "Lovart",
+        "Agent"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "pixcake",
+      "name": "像素蛋糕",
+      "url": "https://www.pixcakeai.com/",
+      "description": "像素级AI精修软件，电商图片处理",
+      "icon": "🍰",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "修图",
+        "电商",
+        "像素蛋糕"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "picdoc",
+      "name": "PicDoc",
+      "url": "https://www.picdoc.cn/",
+      "description": "AI文本转视觉工具，1秒生成信息图",
+      "icon": "📊",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "可视化",
+        "信息图"
+      ],
+      "addedAt": "2025-03-01",
+      "pinned": false
+    },
+    {
+      "id": "stitch",
+      "name": "Google Stitch",
+      "url": "https://stitch.withgoogle.com/",
+      "description": "Google推出的AI设计辅助工具",
+      "icon": "🧵",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "设计",
+        "Google"
+      ],
+      "addedAt": "2025-03-01",
+      "pinned": false
+    },
+    {
+      "id": "dalle",
+      "name": "DALL-E",
+      "url": "https://openai.com/dall-e-3",
+      "description": "OpenAI推出的AI图像生成模型",
+      "icon": "🖼️",
+      "category": "AI绘画/生成",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "绘画",
+        "OpenAI",
+        "DALL-E"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com/",
+      "description": "Google推出的AI研究工具和思考伙伴",
+      "icon": "📓",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "学术",
+        "Google",
+        "笔记"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": true
+    },
+    {
+      "id": "waytoagi",
+      "name": "WaytoAGI",
+      "url": "https://www.waytoagi.com/",
+      "description": "通往AGI之路，最好的AI知识库和工具站",
+      "icon": "🛤️",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "知识库",
+        "AGI",
+        "学习"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": true
+    },
+    {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "url": "https://www.themoonlight.io/",
+      "description": "AI论文阅读助手，智能分析学术论文",
+      "icon": "🌙",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "论文",
+        "阅读",
+        "分析"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "paperreview",
+      "name": "Stanford Agentic Reviewer",
+      "url": "https://paperreview.ai/",
+      "description": "斯坦福AI论文审稿工具",
+      "icon": "📝",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "论文",
+        "审稿",
+        "斯坦福"
+      ],
+      "addedAt": "2025-03-01",
+      "pinned": false
+    },
+    {
+      "id": "deepwiki",
+      "name": "DeepWiki",
+      "url": "https://deepwiki.com/",
+      "description": "AI驱动的代码仓库文档生成工具",
+      "icon": "📚",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "文档",
+        "代码",
+        "Wiki"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "promptguide",
+      "name": "提示工程指南",
+      "url": "https://www.promptingguide.ai/zh",
+      "description": "系统化的Prompt Engineering学习指南",
+      "icon": "📖",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "Prompt",
+        "提示工程",
+        "教程"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "bmysci",
+      "name": "笔目鱼",
+      "url": "https://www.bmysci.com/",
+      "description": "英文论文写作辅助工具，语言表达更地道",
+      "icon": "🐟",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "论文写作",
+        "英文",
+        "润色"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "paperbanana",
+      "name": "PaperBanana",
+      "url": "https://dwzhu-pku.github.io/PaperBanana/",
+      "description": "AI学术论文插图自动化生成工具",
+      "icon": "🍌",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "论文",
+        "插图",
+        "学术"
+      ],
+      "addedAt": "2025-03-01",
+      "pinned": false
+    },
+    {
+      "id": "aistudio-baidu",
+      "name": "飞桨AI Studio",
+      "url": "https://aistudio.baidu.com/",
+      "description": "百度飞桨AI学习与实训社区",
+      "icon": "🏊",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "飞桨",
+        "百度",
+        "实训"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "cnki",
+      "name": "中国知网",
+      "url": "https://www.cnki.net/",
+      "description": "中国最大的学术文献数据库",
+      "icon": "📚",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "知网",
+        "学术",
+        "检索"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "aminer",
+      "name": "AMiner",
+      "url": "https://www.aminer.cn/",
+      "description": "AI驱动的学术搜索引擎和学者社交平台",
+      "icon": "🔬",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "AI",
+        "学者",
+        "检索"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "semanticscholar",
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/",
+      "description": "AI驱动的免费学术搜索引擎",
+      "icon": "🎓",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "AI",
+        "语义",
+        "检索"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "googlescholar",
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/",
+      "description": "Google学术搜索，全球最大学术搜索引擎",
+      "icon": "🔍",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "Google",
+        "学术",
+        "检索"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "wos",
+      "name": "Web of Science",
+      "url": "https://www.webofscience.com/",
+      "description": "全球权威的学术引文索引数据库",
+      "icon": "🌐",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "引文",
+        "SCI",
+        "检索"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "url": "https://arxiv.org/",
+      "description": "最大的预印本学术论文开放获取平台",
+      "icon": "📄",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "预印本",
+        "开放获取",
+        "arXiv"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "readpaper",
+      "name": "ReadPaper",
+      "url": "https://readpaper.com/",
+      "description": "专业论文阅读平台和学术讨论社区",
+      "icon": "📖",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "阅读",
+        "社区",
+        "讨论"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "scihub",
+      "name": "Sci-Hub",
+      "url": "https://sci-hub.se/",
+      "description": "学术论文免费下载工具",
+      "icon": "🔓",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "免费",
+        "下载",
+        "Sci-Hub"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "dblp",
+      "name": "DBLP",
+      "url": "https://dblp.org/",
+      "description": "计算机科学文献数据库",
+      "icon": "💻",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "计算机",
+        "文献",
+        "DBLP"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "connectedpapers",
+      "name": "Connected Papers",
+      "url": "https://www.connectedpapers.com/",
+      "description": "可视化论文关联关系的工具",
+      "icon": "🕸️",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "可视化",
+        "关联",
+        "图谱"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "overleaf",
+      "name": "Overleaf",
+      "url": "https://www.overleaf.com/",
+      "description": "在线LaTeX协作写作平台",
+      "icon": "📝",
+      "category": "论文写作",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "LaTeX",
+        "协作",
+        "写作"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "url": "https://www.grammarly.com/",
+      "description": "英文写作语法检查和润色工具",
+      "icon": "✏️",
+      "category": "论文写作",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "语法",
+        "英文",
+        "润色"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "url": "https://www.deepl.com/",
+      "description": "高质量的AI翻译工具，支持学术翻译",
+      "icon": "🌍",
+      "category": "论文写作",
+      "role": "graduate",
+      "tags": [
+        "翻译",
+        "AI",
+        "学术",
+        "多语言"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "url": "https://quillbot.com/",
+      "description": "AI英文改写和润色工具",
+      "icon": "🪶",
+      "category": "论文写作",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "改写",
+        "英文",
+        "润色"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "paperword",
+      "name": "PaperWord",
+      "url": "https://www.paperword.com/",
+      "description": "论文查重工具",
+      "icon": "📋",
+      "category": "论文写作",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "查重",
+        "检测"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "paperpass",
+      "name": "PaperPass",
+      "url": "https://www.paperpass.com/",
+      "description": "国内知名论文查重平台",
+      "icon": "🔍",
+      "category": "论文写作",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "查重",
+        "检测"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "zotero",
+      "name": "Zotero",
+      "url": "https://www.zotero.org/",
+      "description": "免费开源的文献管理工具",
+      "icon": "📚",
+      "category": "文献管理",
+      "role": "graduate",
+      "tags": [
+        "文献",
+        "管理",
+        "引用",
+        "开源"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "easyscholar",
+      "name": "easyScholar",
+      "url": "https://www.easyscholar.cc/",
+      "description": "浏览器插件，显示期刊等级和SCI分区",
+      "icon": "📊",
+      "category": "文献管理",
+      "role": "graduate",
+      "tags": [
+        "期刊",
+        "SCI",
+        "分区",
+        "插件"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "autodl",
+      "name": "AutoDL",
+      "url": "https://www.autodl.com/",
+      "description": "高性价比GPU云算力租赁平台",
+      "icon": "🖥️",
+      "category": "算力平台",
+      "role": "graduate",
+      "tags": [
+        "GPU",
+        "算力",
+        "云",
+        "深度学习"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "featurize",
+      "name": "Featurize",
+      "url": "https://featurize.cn/",
+      "description": "AI开发算力云平台，支持Jupyter",
+      "icon": "⚡",
+      "category": "算力平台",
+      "role": "graduate",
+      "tags": [
+        "GPU",
+        "算力",
+        "Jupyter",
+        "云"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "colab",
+      "name": "Google Colab",
+      "url": "https://colab.research.google.com/",
+      "description": "Google免费的云端Jupyter笔记本环境",
+      "icon": "📓",
+      "category": "算力平台",
+      "role": "graduate",
+      "tags": [
+        "GPU",
+        "Google",
+        "Jupyter",
+        "免费"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "openi",
+      "name": "OpenI启智",
+      "url": "https://openi.pcl.ac.cn/",
+      "description": "启智AI开源社区，提供普惠算力",
+      "icon": "🤝",
+      "category": "算力平台",
+      "role": "graduate",
+      "tags": [
+        "GPU",
+        "开源",
+        "算力",
+        "社区"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "codewithgpu",
+      "name": "CodeWithGPU",
+      "url": "https://www.codewithgpu.com/",
+      "description": "能复现才是好算法，GPU代码复现平台",
+      "icon": "🔄",
+      "category": "算力平台",
+      "role": "graduate",
+      "tags": [
+        "GPU",
+        "复现",
+        "算法",
+        "代码"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "modelscope",
+      "name": "魔搭社区",
+      "url": "https://www.modelscope.cn/",
+      "description": "阿里达摩院推出的AI模型社区",
+      "icon": "🏗️",
+      "category": "算力平台",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "模型",
+        "社区",
+        "阿里"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/",
+      "description": "全球最大的AI模型和数据集开源社区",
+      "icon": "🤗",
+      "category": "算力平台",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "模型",
+        "开源",
+        "社区"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "matplotlib",
+      "name": "Matplotlib",
+      "url": "https://matplotlib.org/",
+      "description": "Python最经典的数据可视化绘图库",
+      "icon": "📊",
+      "category": "科研绘图",
+      "role": "graduate",
+      "tags": [
+        "绘图",
+        "Python",
+        "数据可视化",
+        "图表"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "seaborn",
+      "name": "Seaborn",
+      "url": "https://seaborn.pydata.org/",
+      "description": "基于Matplotlib的统计数据可视化库",
+      "icon": "📈",
+      "category": "科研绘图",
+      "role": "graduate",
+      "tags": [
+        "绘图",
+        "Python",
+        "统计",
+        "可视化"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "echarts",
+      "name": "ECharts",
+      "url": "https://echarts.apache.org/",
+      "description": "百度开源的交互式数据可视化图表库",
+      "icon": "📉",
+      "category": "科研绘图",
+      "role": "graduate",
+      "tags": [
+        "图表",
+        "可视化",
+        "开源",
+        "交互"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "drawio",
+      "name": "draw.io",
+      "url": "https://www.drawio.com/",
+      "description": "免费的在线流程图和架构图绘制工具",
+      "icon": "✏️",
+      "category": "科研绘图",
+      "role": "graduate",
+      "tags": [
+        "流程图",
+        "架构图",
+        "在线",
+        "绘图"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "icraft",
+      "name": "iCraft Editor",
+      "url": "https://icraft.gantcloud.com/",
+      "description": "3D架构图绘制工具",
+      "icon": "🏗️",
+      "category": "科研绘图",
+      "role": "graduate",
+      "tags": [
+        "3D",
+        "架构图",
+        "绘图"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "python",
+      "name": "Python官网",
+      "url": "https://www.python.org/",
+      "description": "Python编程语言官方网站",
+      "icon": "🐍",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "Python",
+        "编程语言",
+        "官方"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "javascript-mdn",
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/zh-CN/",
+      "description": "Mozilla维护的Web技术权威文档",
+      "icon": "📖",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "JavaScript",
+        "Web",
+        "文档",
+        "MDN"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "url": "https://www.typescriptlang.org/",
+      "description": "JavaScript的超集，添加类型系统",
+      "icon": "🔷",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "类型"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "go-lang",
+      "name": "Go语言",
+      "url": "https://go.dev/",
+      "description": "Google推出的高效编程语言",
+      "icon": "🐹",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "Go",
+        "编程语言",
+        "Google"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "url": "https://www.rust-lang.org/",
+      "description": "安全高效的系统编程语言",
+      "icon": "🦀",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "Rust",
+        "系统编程",
+        "安全"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "url": "https://www.java.com/",
+      "description": "广泛使用的面向对象编程语言",
+      "icon": "☕",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "Java",
+        "编程语言",
+        "面向对象"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "cpp",
+      "name": "C++参考手册",
+      "url": "https://cplusplus.com/",
+      "description": "C++编程语言参考文档",
+      "icon": "⚙️",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "C++",
+        "编程语言",
+        "参考"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "w3school",
+      "name": "W3School",
+      "url": "https://www.w3school.com.cn/",
+      "description": "Web技术在线学习教程平台",
+      "icon": "🎓",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "Web",
+        "教程",
+        "HTML",
+        "CSS"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "runoob",
+      "name": "菜鸟教程",
+      "url": "https://www.runoob.com/",
+      "description": "全面的编程语言入门教程网站",
+      "icon": "📗",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "教程",
+        "入门",
+        "编程",
+        "中文"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "url": "https://react.dev/",
+      "description": "Meta推出的声明式UI构建库",
+      "icon": "⚛️",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "React",
+        "前端",
+        "UI",
+        "Meta"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "vue",
+      "name": "Vue.js",
+      "url": "https://vuejs.org/",
+      "description": "渐进式JavaScript框架，易学易用",
+      "icon": "💚",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "Vue",
+        "前端",
+        "框架",
+        "渐进式"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "tailwindcss",
+      "name": "Tailwind CSS",
+      "url": "https://tailwindcss.com/",
+      "description": "实用优先的CSS框架，快速构建UI",
+      "icon": "🎨",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "CSS",
+        "框架",
+        "工具类",
+        "前端"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "element",
+      "name": "Element UI",
+      "url": "https://element.eleme.io/",
+      "description": "饿了么推出的Vue桌面端UI组件库",
+      "icon": "📦",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "Vue",
+        "UI",
+        "组件库",
+        "饿了么"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "vant",
+      "name": "Vant",
+      "url": "https://vant-ui.gitee.io/",
+      "description": "有赞推出的轻量移动端Vue组件库",
+      "icon": "📱",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "Vue",
+        "移动端",
+        "组件库",
+        "UI"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "url": "https://nextjs.org/",
+      "description": "React全栈框架，支持SSR和SSG",
+      "icon": "▲",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "React",
+        "SSR",
+        "全栈",
+        "Vercel"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "taro",
+      "name": "Taro",
+      "url": "https://docs.taro.zone/",
+      "description": "多端统一开发框架，支持小程序和H5",
+      "icon": "🔮",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "小程序",
+        "多端",
+        "框架",
+        "React"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "uniapp",
+      "name": "uni-app",
+      "url": "https://uniapp.dcloud.net.cn/",
+      "description": "DCloud推出的跨平台应用开发框架",
+      "icon": "📱",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "跨平台",
+        "小程序",
+        "Vue",
+        "DCloud"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "vite",
+      "name": "Vite",
+      "url": "https://vitejs.dev/",
+      "description": "下一代前端构建工具，极速开发体验",
+      "icon": "⚡",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "构建",
+        "前端",
+        "Vite",
+        "快速"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "d3",
+      "name": "D3.js",
+      "url": "https://d3js.org/",
+      "description": "强大的JavaScript数据可视化库",
+      "icon": "📊",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "可视化",
+        "JavaScript",
+        "D3",
+        "数据"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "spring",
+      "name": "Spring Boot",
+      "url": "https://spring.io/",
+      "description": "Java企业级应用开发框架",
+      "icon": "🍃",
+      "category": "后端开发",
+      "role": "engineer",
+      "tags": [
+        "Java",
+        "Spring",
+        "后端",
+        "框架"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "django",
+      "name": "Django",
+      "url": "https://www.djangoproject.com/",
+      "description": "Python全栈Web开发框架",
+      "icon": "🎸",
+      "category": "后端开发",
+      "role": "engineer",
+      "tags": [
+        "Python",
+        "Django",
+        "Web",
+        "全栈"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI",
+      "url": "https://fastapi.tiangolo.com/",
+      "description": "高性能Python API开发框架",
+      "icon": "⚡",
+      "category": "后端开发",
+      "role": "engineer",
+      "tags": [
+        "Python",
+        "API",
+        "FastAPI",
+        "异步"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "flask",
+      "name": "Flask",
+      "url": "https://flask.palletsprojects.com/",
+      "description": "轻量级Python Web框架",
+      "icon": "🍶",
+      "category": "后端开发",
+      "role": "engineer",
+      "tags": [
+        "Python",
+        "Flask",
+        "Web",
+        "轻量"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "url": "https://nodejs.org/",
+      "description": "基于V8的JavaScript运行时环境",
+      "icon": "🟢",
+      "category": "后端开发",
+      "role": "engineer",
+      "tags": [
+        "Node.js",
+        "JavaScript",
+        "后端",
+        "运行时"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "express",
+      "name": "Express.js",
+      "url": "https://expressjs.com/",
+      "description": "Node.js最流行的Web应用框架",
+      "icon": "🚂",
+      "category": "后端开发",
+      "role": "engineer",
+      "tags": [
+        "Node.js",
+        "Express",
+        "Web",
+        "框架"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "ruoyi",
+      "name": "RuoYi",
+      "url": "http://www.ruoyi.vip/",
+      "description": "基于SpringBoot的后台管理系统快速开发框架",
+      "icon": "🏢",
+      "category": "后端开发",
+      "role": "engineer",
+      "tags": [
+        "Java",
+        "后台管理",
+        "快速开发",
+        "开源"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "easyexcel",
+      "name": "EasyExcel",
+      "url": "https://easyexcel.opensource.alibaba.com/",
+      "description": "阿里开源的Java Excel处理工具",
+      "icon": "📊",
+      "category": "后端开发",
+      "role": "engineer",
+      "tags": [
+        "Java",
+        "Excel",
+        "阿里",
+        "开源"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "url": "https://www.mysql.com/",
+      "description": "全球最流行的开源关系型数据库",
+      "icon": "🐬",
+      "category": "数据库",
+      "role": "engineer",
+      "tags": [
+        "MySQL",
+        "数据库",
+        "SQL",
+        "开源"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "url": "https://redis.io/",
+      "description": "高性能内存键值数据库",
+      "icon": "🔴",
+      "category": "数据库",
+      "role": "engineer",
+      "tags": [
+        "Redis",
+        "缓存",
+        "内存",
+        "NoSQL"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "url": "https://www.mongodb.com/",
+      "description": "文档型NoSQL数据库",
+      "icon": "🍃",
+      "category": "数据库",
+      "role": "engineer",
+      "tags": [
+        "MongoDB",
+        "NoSQL",
+        "文档",
+        "数据库"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "url": "https://www.postgresql.org/",
+      "description": "功能最强大的开源关系型数据库",
+      "icon": "🐘",
+      "category": "数据库",
+      "role": "engineer",
+      "tags": [
+        "PostgreSQL",
+        "SQL",
+        "开源",
+        "数据库"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "url": "https://www.docker.com/",
+      "description": "容器化应用部署和管理平台",
+      "icon": "🐳",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "Docker",
+        "容器",
+        "部署",
+        "DevOps"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "github-actions",
+      "name": "GitHub Actions",
+      "url": "https://github.com/features/actions",
+      "description": "GitHub内置的CI/CD自动化工具",
+      "icon": "⚙️",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "CI/CD",
+        "GitHub",
+        "自动化",
+        "DevOps"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "url": "https://www.jenkins.io/",
+      "description": "开源的持续集成和持续部署工具",
+      "icon": "🔧",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "CI/CD",
+        "Jenkins",
+        "自动化",
+        "开源"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "nginx",
+      "name": "Nginx",
+      "url": "https://nginx.org/",
+      "description": "高性能Web服务器和反向代理",
+      "icon": "⚡",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "Nginx",
+        "Web服务器",
+        "反向代理"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "bt-panel",
+      "name": "宝塔面板",
+      "url": "https://www.bt.cn/",
+      "description": "简化的Linux服务器运维管理面板",
+      "icon": "🖥️",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "服务器",
+        "运维",
+        "面板",
+        "管理"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "1panel",
+      "name": "1Panel",
+      "url": "https://1panel.cn/",
+      "description": "现代化开源Linux服务器运维管理面板",
+      "icon": "📊",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "服务器",
+        "运维",
+        "面板",
+        "开源"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "halo",
+      "name": "Halo",
+      "url": "https://www.halo.run/",
+      "description": "强大易用的开源建站工具",
+      "icon": "🌈",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "建站",
+        "博客",
+        "开源",
+        "CMS"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "aliyun",
+      "name": "阿里云",
+      "url": "https://www.aliyun.com/",
+      "description": "中国领先的云计算服务平台",
+      "icon": "☁️",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "云",
+        "阿里云",
+        "服务器",
+        "存储"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "tencentcloud",
+      "name": "腾讯云",
+      "url": "https://cloud.tencent.com/",
+      "description": "腾讯云计算服务平台",
+      "icon": "☁️",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "云",
+        "腾讯云",
+        "服务器"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "url": "https://aws.amazon.com/",
+      "description": "Amazon云计算服务平台",
+      "icon": "☁️",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "云",
+        "AWS",
+        "Amazon",
+        "全球"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "url": "https://vercel.com/",
+      "description": "前端项目部署和托管平台",
+      "icon": "▲",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "部署",
+        "前端",
+        "Vercel",
+        "托管"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "url": "https://www.netlify.com/",
+      "description": "现代Web项目自动化构建和部署",
+      "icon": "🌐",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "部署",
+        "前端",
+        "Netlify",
+        "托管"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/",
+      "description": "多模型AI API聚合平台",
+      "icon": "🔀",
+      "category": "API/网络",
+      "role": "engineer",
+      "tags": [
+        "API",
+        "AI",
+        "聚合",
+        "多模型"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "siliconcloud",
+      "name": "SiliconCloud",
+      "url": "https://cloud.siliconflow.cn/",
+      "description": "硅基流动AI模型推理云平台",
+      "icon": "☁️",
+      "category": "API/网络",
+      "role": "engineer",
+      "tags": [
+        "API",
+        "AI",
+        "推理",
+        "硅基流动"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "url": "https://www.postman.com/",
+      "description": "API开发和测试协作平台",
+      "icon": "📮",
+      "category": "API/网络",
+      "role": "engineer",
+      "tags": [
+        "API",
+        "测试",
+        "协作",
+        "开发"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "swagger",
+      "name": "Swagger",
+      "url": "https://swagger.io/",
+      "description": "API文档自动生成和测试工具",
+      "icon": "📖",
+      "category": "API/网络",
+      "role": "engineer",
+      "tags": [
+        "API",
+        "文档",
+        "OpenAPI",
+        "测试"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "gradio",
+      "name": "Gradio",
+      "url": "https://www.gradio.app/",
+      "description": "快速构建AI模型演示界面",
+      "icon": "🖼️",
+      "category": "API/网络",
+      "role": "engineer",
+      "tags": [
+        "AI",
+        "演示",
+        "界面",
+        "Python"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "fastgpt",
+      "name": "FastGPT",
+      "url": "https://fastgpt.cn/",
+      "description": "企业级AI知识库问答系统",
+      "icon": "🚀",
+      "category": "API/网络",
+      "role": "engineer",
+      "tags": [
+        "AI",
+        "知识库",
+        "问答",
+        "GPT"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "litellm",
+      "name": "LiteLLM",
+      "url": "https://www.litellm.ai/",
+      "description": "统一调用100+大模型API的Python库",
+      "icon": "💡",
+      "category": "API/网络",
+      "role": "engineer",
+      "tags": [
+        "API",
+        "LLM",
+        "Python",
+        "统一"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "description": "全球最大的代码托管和协作平台",
+      "icon": "🐙",
+      "category": "代码托管",
+      "role": "engineer",
+      "tags": [
+        "Git",
+        "开源",
+        "协作",
+        "代码"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "gitee",
+      "name": "Gitee",
+      "url": "https://gitee.com/",
+      "description": "国内最大的代码托管平台",
+      "icon": "🇨🇳",
+      "category": "代码托管",
+      "role": "engineer",
+      "tags": [
+        "Git",
+        "国内",
+        "开源",
+        "代码"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "url": "https://gitlab.com/",
+      "description": "一体化DevOps平台和代码托管",
+      "icon": "🦊",
+      "category": "代码托管",
+      "role": "engineer",
+      "tags": [
+        "Git",
+        "DevOps",
+        "CI/CD",
+        "代码"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "vscode",
+      "name": "VS Code",
+      "url": "https://code.visualstudio.com/",
+      "description": "微软推出的免费开源代码编辑器",
+      "icon": "💻",
+      "category": "IDE/编辑器",
+      "role": "engineer",
+      "tags": [
+        "编辑器",
+        "VS Code",
+        "微软",
+        "插件"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "jetbrains",
+      "name": "JetBrains",
+      "url": "https://www.jetbrains.com/",
+      "description": "专业IDE开发工具套件(IntelliJ/PyCharm等)",
+      "icon": "🧠",
+      "category": "IDE/编辑器",
+      "role": "engineer",
+      "tags": [
+        "IDE",
+        "IntelliJ",
+        "PyCharm",
+        "专业"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "vim",
+      "name": "Vim",
+      "url": "https://www.vim.org/",
+      "description": "强大的终端文本编辑器",
+      "icon": "📝",
+      "category": "IDE/编辑器",
+      "role": "engineer",
+      "tags": [
+        "Vim",
+        "终端",
+        "编辑器",
+        "高效"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "devstudio",
+      "name": "DevEco Studio",
+      "url": "https://developer.harmonyos.com/cn/develop/deveco-studio",
+      "description": "华为HarmonyOS应用开发IDE",
+      "icon": "📱",
+      "category": "IDE/编辑器",
+      "role": "engineer",
+      "tags": [
+        "IDE",
+        "鸿蒙",
+        "HarmonyOS",
+        "华为"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "stackblitz",
+      "name": "StackBlitz",
+      "url": "https://stackblitz.com/",
+      "description": "在线全栈Web开发环境",
+      "icon": "⚡",
+      "category": "IDE/编辑器",
+      "role": "engineer",
+      "tags": [
+        "在线",
+        "Web",
+        "IDE",
+        "前端"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "feishu",
+      "name": "飞书",
+      "url": "https://www.feishu.cn/",
+      "description": "字节跳动推出的企业协作办公平台",
+      "icon": "🐦",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "办公",
+        "协作",
+        "飞书",
+        "字节"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "wps",
+      "name": "WPS Office",
+      "url": "https://www.wps.cn/",
+      "description": "金山办公套件，支持文档表格演示",
+      "icon": "📄",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "办公",
+        "WPS",
+        "文档",
+        "表格"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "wps-ai",
+      "name": "WPS AI",
+      "url": "https://ai.wps.cn/",
+      "description": "WPS内置AI智能办公助手",
+      "icon": "🤖",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "AI",
+        "办公",
+        "WPS",
+        "智能"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "tencent-docs",
+      "name": "腾讯文档",
+      "url": "https://docs.qq.com/",
+      "description": "腾讯推出的在线文档协作工具",
+      "icon": "📋",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "文档",
+        "协作",
+        "腾讯",
+        "在线"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "kdocs",
+      "name": "金山文档",
+      "url": "https://www.kdocs.cn/",
+      "description": "多人实时协作的在线文档工具",
+      "icon": "📑",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "文档",
+        "协作",
+        "金山",
+        "在线"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "yuque",
+      "name": "语雀",
+      "url": "https://www.yuque.com/",
+      "description": "蚂蚁集团推出的知识管理平台",
+      "icon": "🦢",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "知识管理",
+        "文档",
+        "语雀",
+        "协作"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "url": "https://www.notion.so/",
+      "description": "All-in-One知识管理和协作工具",
+      "icon": "📓",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "知识管理",
+        "协作",
+        "Notion",
+        "笔记"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "weixin-work",
+      "name": "企业微信",
+      "url": "https://work.weixin.qq.com/",
+      "description": "企业级微信通讯和办公平台",
+      "icon": "💼",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "办公",
+        "微信",
+        "企业",
+        "通讯"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "dingtalk",
+      "name": "钉钉",
+      "url": "https://www.dingtalk.com/",
+      "description": "阿里推出的企业智能办公平台",
+      "icon": "📌",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "办公",
+        "钉钉",
+        "阿里",
+        "企业"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "wps-forms",
+      "name": "WPS表单",
+      "url": "https://f.wps.cn/forms/",
+      "description": "WPS在线表单收集工具",
+      "icon": "📝",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "表单",
+        "收集",
+        "WPS",
+        "数据"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "chatexcel",
+      "name": "ChatExcel",
+      "url": "https://chatexcel.com/",
+      "description": "AI驱动的Excel数据处理和分析工具",
+      "icon": "📊",
+      "category": "办公协作",
+      "role": "counselor",
+      "tags": [
+        "AI",
+        "Excel",
+        "数据处理",
+        "表格"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "wechat-work",
+      "name": "微信公众平台",
+      "url": "https://mp.weixin.qq.com/",
+      "description": "微信公众号管理和内容发布平台",
+      "icon": "📢",
+      "category": "通知发布",
+      "role": "counselor",
+      "tags": [
+        "微信",
+        "公众号",
+        "发布",
+        "通知"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "miaoying",
+      "name": "秒应",
+      "url": "https://www.miaoying.com/",
+      "description": "活动报名和通知管理工具",
+      "icon": "⏰",
+      "category": "通知发布",
+      "role": "counselor",
+      "tags": [
+        "通知",
+        "报名",
+        "活动",
+        "管理"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "echarts-counselor",
+      "name": "ECharts图表",
+      "url": "https://echarts.apache.org/examples/",
+      "description": "Apache开源的数据可视化图表库",
+      "icon": "📈",
+      "category": "数据统计",
+      "role": "counselor",
+      "tags": [
+        "图表",
+        "可视化",
+        "数据",
+        "统计"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "aippt",
+      "name": "AiPPT",
+      "url": "https://www.aippt.cn/",
+      "description": "AI一键生成PPT演示文稿",
+      "icon": "🎭",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "AI",
+        "PPT",
+        "演示",
+        "自动生成"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": true
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "url": "https://gamma.app/",
+      "description": "AI驱动的演示文稿和文档生成工具",
+      "icon": "✨",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "AI",
+        "PPT",
+        "演示",
+        "文档"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "canva",
+      "name": "Canva可画",
+      "url": "https://www.canva.cn/",
+      "description": "在线平面设计工具，轻松制作海报和PPT",
+      "icon": "🎨",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "设计",
+        "海报",
+        "PPT",
+        "模板"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "islide",
+      "name": "iSlide",
+      "url": "https://www.islide.cc/",
+      "description": "PPT设计效率插件，海量模板和素材",
+      "icon": "📐",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "PPT",
+        "模板",
+        "设计",
+        "插件"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "pangmenzd",
+      "name": "旁门左道PPT",
+      "url": "https://www.pangmenzd.vip/",
+      "description": "PPT设计学习资源和模板平台",
+      "icon": "📖",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "PPT",
+        "设计",
+        "教程",
+        "模板"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "napkin",
+      "name": "Napkin AI",
+      "url": "https://www.napkin.ai/",
+      "description": "AI将文字自动转化为精美图表",
+      "icon": "🧣",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "AI",
+        "图表",
+        "可视化",
+        "文档"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "baidu-naotu",
+      "name": "百度脑图",
+      "url": "https://naotu.baidu.com/",
+      "description": "在线思维导图工具",
+      "icon": "🧠",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "思维导图",
+        "百度",
+        "在线",
+        "免费"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "shutu",
+      "name": "TreeMind树图",
+      "url": "https://shutu.cn/",
+      "description": "在线AI思维导图软件",
+      "icon": "🌳",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "思维导图",
+        "AI",
+        "在线",
+        "模板"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "hipdf",
+      "name": "HiPDF",
+      "url": "https://www.hipdf.cn/",
+      "description": "在线PDF转换和处理工具",
+      "icon": "📑",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "PDF",
+        "转换",
+        "在线",
+        "工具"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "wenku",
+      "name": "百度文库",
+      "url": "https://wenku.baidu.com/",
+      "description": "百度推出的在线文档分享平台",
+      "icon": "📚",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "文档",
+        "分享",
+        "百度",
+        "资料"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "modao",
+      "name": "墨刀",
+      "url": "https://modao.cc/",
+      "description": "在线原型设计和协作工具",
+      "icon": "🖊️",
+      "category": "文档管理",
+      "role": "counselor",
+      "tags": [
+        "原型",
+        "设计",
+        "协作",
+        "墨刀"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "icourse163",
+      "name": "中国大学MOOC",
+      "url": "https://www.icourse163.org/",
+      "description": "国内最大的在线课程学习平台",
+      "icon": "🎓",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "MOOC",
+        "大学",
+        "课程",
+        "在线学习"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "url": "https://www.bilibili.com/",
+      "description": "丰富的视频学习资源和教程平台",
+      "icon": "📺",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "视频",
+        "学习",
+        "教程",
+        "B站"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "gaoxiaobang",
+      "name": "高校邦",
+      "url": "https://www.gaoxiaobang.com/",
+      "description": "高校在线课程学习管理平台",
+      "icon": "🏫",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "课程",
+        "高校",
+        "在线",
+        "学习"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "pintia",
+      "name": "PTA拼题A",
+      "url": "https://pintia.cn/",
+      "description": "程序设计类课程辅助教学平台",
+      "icon": "🧩",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "编程",
+        "题库",
+        "教学",
+        "PTA"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "educoder",
+      "name": "头歌",
+      "url": "https://www.educoder.net/",
+      "description": "实践教学平台，编程闯关式学习",
+      "icon": "🎮",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "编程",
+        "实践",
+        "闯关",
+        "学习"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "csdn-edu",
+      "name": "CSDN技能树",
+      "url": "https://edu.csdn.net/",
+      "description": "CSDN推出的编程技能学习平台",
+      "icon": "🌳",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "编程",
+        "技能",
+        "CSDN",
+        "学习"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "d2l",
+      "name": "动手学深度学习",
+      "url": "https://zh.d2l.ai/",
+      "description": "面向中文读者的深度学习互动教材",
+      "icon": "📘",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "深度学习",
+        "教材",
+        "李沐",
+        "交互式"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "tensorflow-playground",
+      "name": "TensorFlow Playground",
+      "url": "https://playground.tensorflow.org/",
+      "description": "在线神经网络可视化实验平台",
+      "icon": "🧪",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "神经网络",
+        "可视化",
+        "实验",
+        "TensorFlow"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "jupyter",
+      "name": "Jupyter Notebook",
+      "url": "https://jupyter.org/",
+      "description": "交互式数据科学和科学计算环境",
+      "icon": "📓",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "Jupyter",
+        "Python",
+        "数据科学",
+        "交互"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "tensorflow",
+      "name": "TensorFlow",
+      "url": "https://www.tensorflow.org/",
+      "description": "Google开源的深度学习框架",
+      "icon": "🧠",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "深度学习",
+        "TensorFlow",
+        "Google",
+        "框架"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "url": "https://pytorch.org/",
+      "description": "Meta开源的深度学习框架",
+      "icon": "🔥",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "深度学习",
+        "PyTorch",
+        "Meta",
+        "框架"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "paddlepaddle",
+      "name": "飞桨PaddlePaddle",
+      "url": "https://www.paddlepaddle.org.cn/",
+      "description": "百度开源的深度学习平台",
+      "icon": "🏊",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "深度学习",
+        "飞桨",
+        "百度",
+        "框架"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "mindspore",
+      "name": "MindSpore",
+      "url": "https://www.mindspore.cn/",
+      "description": "华为开源的AI计算框架",
+      "icon": "🧩",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "AI",
+        "MindSpore",
+        "华为",
+        "框架"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "mmdetection",
+      "name": "MMDetection",
+      "url": "https://github.com/open-mmlab/mmdetection",
+      "description": "OpenMMLab目标检测工具箱",
+      "icon": "🔍",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "目标检测",
+        "OpenMMLab",
+        "计算机视觉"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "ultralytics",
+      "name": "Ultralytics YOLO",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "description": "YOLO系列目标检测官方实现",
+      "icon": "🎯",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "YOLO",
+        "目标检测",
+        "实时",
+        "计算机视觉"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "segment-anything",
+      "name": "Segment Anything",
+      "url": "https://segment-anything.com/",
+      "description": "Meta推出的通用图像分割模型",
+      "icon": "✂️",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "分割",
+        "SAM",
+        "Meta",
+        "计算机视觉"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "networkx",
+      "name": "NetworkX",
+      "url": "https://networkx.org/",
+      "description": "Python复杂网络分析库",
+      "icon": "🕸️",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "图",
+        "网络",
+        "Python",
+        "复杂网络"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "kali",
+      "name": "Kali Linux",
+      "url": "https://www.kali.org/",
+      "description": "网络安全渗透测试专用Linux发行版",
+      "icon": "🐉",
+      "category": "课程学习",
+      "role": "student",
+      "tags": [
+        "安全",
+        "渗透测试",
+        "Linux",
+        "Kali"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "cet",
+      "name": "CET四六级",
+      "url": "https://cet.neea.edu.cn/",
+      "description": "全国大学英语四六级考试官网",
+      "icon": "📝",
+      "category": "考试备考",
+      "role": "student",
+      "tags": [
+        "四六级",
+        "英语",
+        "考试",
+        "CET"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "neea",
+      "name": "中国教育考试网",
+      "url": "https://www.neea.edu.cn/",
+      "description": "教育部考试中心官方网站",
+      "icon": "📋",
+      "category": "考试备考",
+      "role": "student",
+      "tags": [
+        "考试",
+        "教育部",
+        "报名",
+        "成绩"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "pigai",
+      "name": "批改网",
+      "url": "https://www.pigai.org/",
+      "description": "在线英文作文批改平台",
+      "icon": "✍️",
+      "category": "考试备考",
+      "role": "student",
+      "tags": [
+        "英语",
+        "作文",
+        "批改",
+        "写作"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "burningvocab",
+      "name": "Burning Vocabulary",
+      "url": "https://burningvocabulary.com/",
+      "description": "英文阅读单词伴侣工具",
+      "icon": "🔥",
+      "category": "考试备考",
+      "role": "student",
+      "tags": [
+        "英语",
+        "单词",
+        "阅读",
+        "词汇"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "chsi",
+      "name": "学信网",
+      "url": "https://www.chsi.com.cn/",
+      "description": "教育部学历查询和考研报名平台",
+      "icon": "🎓",
+      "category": "考试备考",
+      "role": "student",
+      "tags": [
+        "学历",
+        "考研",
+        "学信网",
+        "教育部"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "leetcode",
+      "name": "力扣LeetCode",
+      "url": "https://leetcode.cn/",
+      "description": "全球极客挚爱的算法刷题平台",
+      "icon": "💪",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "算法",
+        "刷题",
+        "面试",
+        "LeetCode"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "luogu",
+      "name": "洛谷",
+      "url": "https://www.luogu.com.cn/",
+      "description": "面向学生的计算机科学教育社区",
+      "icon": "🌲",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "算法",
+        "竞赛",
+        "OJ",
+        "洛谷"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "acwing",
+      "name": "AcWing",
+      "url": "https://www.acwing.com/",
+      "description": "算法竞赛学习和刷题平台",
+      "icon": "⚔️",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "算法",
+        "竞赛",
+        "刷题",
+        "AcWing"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "nowcoder",
+      "name": "牛客网",
+      "url": "https://www.nowcoder.com/",
+      "description": "求职笔试面试刷题和经验分享平台",
+      "icon": "🐮",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "面试",
+        "笔试",
+        "刷题",
+        "求职"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "codeforces",
+      "name": "Codeforces",
+      "url": "https://codeforces.com/",
+      "description": "全球知名的算法竞赛平台",
+      "icon": "🏆",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "算法",
+        "竞赛",
+        "Codeforces",
+        "国际"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "lanqiao",
+      "name": "蓝桥杯",
+      "url": "https://www.lanqiao.cn/",
+      "description": "蓝桥杯全国软件和信息技术大赛",
+      "icon": "🌉",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "蓝桥杯",
+        "竞赛",
+        "编程",
+        "大赛"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "codewars",
+      "name": "Codewars",
+      "url": "https://www.codewars.com/",
+      "description": "通过编程挑战提升编码技能",
+      "icon": "⚔️",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "编程",
+        "挑战",
+        "技能",
+        "Codewars"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "saikr",
+      "name": "赛氪",
+      "url": "https://www.saikr.com/",
+      "description": "全国大学生比赛信息聚合平台",
+      "icon": "🏅",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "竞赛",
+        "大学生",
+        "信息",
+        "比赛"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "dotcpp",
+      "name": "DotCpp",
+      "url": "https://www.dotcpp.com/",
+      "description": "C语言网编程入门学习和训练题库",
+      "icon": "💻",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "C语言",
+        "编程",
+        "入门",
+        "题库"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "deepseek-course",
+      "name": "深度之眼",
+      "url": "https://space.bilibili.com/365093772",
+      "description": "深度学习系统课程视频教程",
+      "icon": "👁️",
+      "category": "视频教程",
+      "role": "student",
+      "tags": [
+        "深度学习",
+        "课程",
+        "视频",
+        "教程"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "li-mu-ai",
+      "name": "跟李沐学AI",
+      "url": "https://space.bilibili.com/1567748478",
+      "description": "李沐老师的AI深度学习系列课程",
+      "icon": "👨‍🏫",
+      "category": "视频教程",
+      "role": "student",
+      "tags": [
+        "AI",
+        "李沐",
+        "深度学习",
+        "课程"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "javaguide",
+      "name": "JavaGuide",
+      "url": "https://javaguide.cn/",
+      "description": "Java面试和学习指南",
+      "icon": "🗺️",
+      "category": "学习路线",
+      "role": "student",
+      "tags": [
+        "Java",
+        "面试",
+        "学习",
+        "指南"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "xiaolincoding",
+      "name": "小林coding",
+      "url": "https://www.xiaolincoding.com/",
+      "description": "图解计算机基础系列教程",
+      "icon": "🖼️",
+      "category": "学习路线",
+      "role": "student",
+      "tags": [
+        "计算机",
+        "图解",
+        "基础",
+        "教程"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "roadmap-sh",
+      "name": "roadmap.sh",
+      "url": "https://roadmap.sh/",
+      "description": "开发者学习路线图，涵盖各技术方向",
+      "icon": "🗺️",
+      "category": "学习路线",
+      "role": "student",
+      "tags": [
+        "路线图",
+        "开发",
+        "学习",
+        "规划"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "learnerhub",
+      "name": "知士荟",
+      "url": "https://www.learnerhub.net/",
+      "description": "编程学习社区和知识分享平台",
+      "icon": "💡",
+      "category": "学习路线",
+      "role": "student",
+      "tags": [
+        "学习",
+        "编程",
+        "社区",
+        "知识"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "utools",
+      "name": "uTools",
+      "url": "https://www.u.tools/",
+      "description": "新一代效率工具平台，插件化设计",
+      "icon": "🔧",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "效率",
+        "工具",
+        "插件",
+        "快捷"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": true
+    },
+    {
+      "id": "jianguoyun",
+      "name": "坚果云",
+      "url": "https://www.jianguoyun.com/",
+      "description": "文件自动同步云盘和团队协作工具",
+      "icon": "☁️",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "云盘",
+        "同步",
+        "协作",
+        "坚果云"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "wenshushu",
+      "name": "文叔叔",
+      "url": "https://www.wenshushu.cn/",
+      "description": "大文件传输工具，不限速",
+      "icon": "📤",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "传输",
+        "大文件",
+        "不限速",
+        "工具"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "wetab",
+      "name": "WeTab",
+      "url": "https://www.wetab.link/",
+      "description": "浏览器新标签页效率扩展",
+      "icon": "🌐",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "新标签页",
+        "浏览器",
+        "导航",
+        "效率"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "mklab",
+      "name": "MKLab在线工具",
+      "url": "https://www.mklab.cn/",
+      "description": "在线加密解密、正则测试等工具集合",
+      "icon": "🛠️",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "在线工具",
+        "加密",
+        "正则",
+        "转换"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "typingclub",
+      "name": "TypingClub",
+      "url": "https://www.typingclub.com/",
+      "description": "在线打字练习和指法训练平台",
+      "icon": "⌨️",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "打字",
+        "练习",
+        "指法",
+        "速度"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "dazidazi",
+      "name": "打字练习",
+      "url": "https://dazidazi.com/",
+      "description": "在线打字练习网站，提高打字速度",
+      "icon": "👆",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "打字",
+        "练习",
+        "速度",
+        "测试"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "speedtest",
+      "name": "测速网",
+      "url": "https://www.speedtest.cn/",
+      "description": "专业的网络测速工具",
+      "icon": "📶",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "测速",
+        "网速",
+        "网络",
+        "测试"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "deepseek-browser",
+      "name": "DeepSider",
+      "url": "https://www.deepsider.ai/",
+      "description": "免费体验多种大模型AI的浏览器工具",
+      "icon": "🌐",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "AI",
+        "浏览器",
+        "多模型",
+        "免费"
+      ],
+      "addedAt": "2025-01-01",
+      "pinned": false
+    },
+    {
+      "id": "tabbit",
+      "name": "Tabbit浏览器",
+      "url": "https://www.tabbit-ai.com/",
+      "description": "AI智能浏览器，提升浏览效率",
+      "icon": "🧠",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "AI",
+        "浏览器",
+        "效率",
+        "智能"
+      ],
+      "addedAt": "2025-03-01",
+      "pinned": false
+    },
+    {
+      "id": "feizhu-ai",
+      "name": "飞猪AI导航",
+      "url": "https://feizhuke.com/",
+      "description": "AI工具集导航网站",
+      "icon": "🧭",
+      "category": "效率工具",
+      "role": "life",
+      "tags": [
+        "AI",
+        "导航",
+        "工具",
+        "集合"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "pixian",
+      "name": "Pixian.AI",
+      "url": "https://pixian.ai/",
+      "description": "免费在线AI抠图工具",
+      "icon": "✂️",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "抠图",
+        "AI",
+        "免费",
+        "图片"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "yasuotu",
+      "name": "压缩图",
+      "url": "https://www.yasuotu.com/",
+      "description": "在线图片压缩工具，支持多种格式",
+      "icon": "📦",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "图片",
+        "压缩",
+        "在线",
+        "工具"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "yiketu",
+      "name": "易可图",
+      "url": "https://www.yiketu.com/",
+      "description": "免费在线图片编辑器和海报设计",
+      "icon": "🖼️",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "图片",
+        "编辑",
+        "海报",
+        "免费"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "gaituya",
+      "name": "改图鸭",
+      "url": "https://www.gaituya.com/",
+      "description": "多功能在线图片编辑处理工具",
+      "icon": "🦆",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "图片",
+        "编辑",
+        "处理",
+        "在线"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "picup",
+      "name": "皮卡智能",
+      "url": "https://www.picup.shop/",
+      "description": "AI一键抠图和图片处理工具",
+      "icon": "🐿️",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "抠图",
+        "AI",
+        "图片",
+        "处理"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "shiliuai",
+      "name": "石力AI证件照",
+      "url": "https://www.shiliuai.com/",
+      "description": "AI智能证件照制作工具",
+      "icon": "📸",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "证件照",
+        "AI",
+        "制作",
+        "工具"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "hivisionidphotos",
+      "name": "HivisionIDPhotos",
+      "url": "https://swanhub.co/ZeYiLin/HivisionIDPhotos",
+      "description": "开源AI证件照制作算法",
+      "icon": "🪪",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "证件照",
+        "AI",
+        "开源",
+        "算法"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "vocalremover",
+      "name": "VocalRemover",
+      "url": "https://vocalremover.org/",
+      "description": "AI在线人声分离和伴奏提取工具",
+      "icon": "🎵",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "音频",
+        "人声分离",
+        "AI",
+        "伴奏"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "jiawa",
+      "name": "甲蛙智能语音",
+      "url": "https://www.jiawahome.com/",
+      "description": "语音转文字和文字转语音工具",
+      "icon": "🎙️",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "语音",
+        "转文字",
+        "配音",
+        "字幕"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "redpanda",
+      "name": "RedPanda压缩",
+      "url": "https://www.redpandacompress.com/",
+      "description": "在线视频压缩工具",
+      "icon": "🐼",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "视频",
+        "压缩",
+        "在线",
+        "工具"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "aconvert",
+      "name": "AConvert",
+      "url": "https://www.aconvert.com/",
+      "description": "全能在线文件格式转换工具",
+      "icon": "🔄",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "转换",
+        "格式",
+        "在线",
+        "工具"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "clideo",
+      "name": "Clideo",
+      "url": "https://clideo.com/",
+      "description": "在线视频编辑和处理工具",
+      "icon": "🎬",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "视频",
+        "编辑",
+        "在线",
+        "工具"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "ohmycv",
+      "name": "Oh My CV",
+      "url": "https://ohmycv.app/",
+      "description": "免费在线简历制作工具",
+      "icon": "📄",
+      "category": "设计工具",
+      "role": "life",
+      "tags": [
+        "简历",
+        "制作",
+        "免费",
+        "在线"
+      ],
+      "addedAt": "2024-03-01",
+      "pinned": false
+    },
+    {
+      "id": "lol",
+      "name": "英雄联盟",
+      "url": "https://lol.qq.com/",
+      "description": "腾讯出品的MOBA竞技游戏",
+      "icon": "🎮",
+      "category": "娱乐",
+      "role": "life",
+      "tags": [
+        "游戏",
+        "LOL",
+        "竞技",
+        "腾讯"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "music163",
+      "name": "网易云音乐",
+      "url": "https://music.163.com/",
+      "description": "高品质音乐流媒体平台",
+      "icon": "🎵",
+      "category": "娱乐",
+      "role": "life",
+      "tags": [
+        "音乐",
+        "网易云",
+        "播放",
+        "歌单"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "qqmusic",
+      "name": "QQ音乐",
+      "url": "https://y.qq.com/",
+      "description": "腾讯旗下音乐流媒体平台",
+      "icon": "🎶",
+      "category": "娱乐",
+      "role": "life",
+      "tags": [
+        "音乐",
+        "QQ音乐",
+        "播放",
+        "歌单"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "xuexi",
+      "name": "学习强国",
+      "url": "https://www.xuexi.cn/",
+      "description": "党员干部理论学习平台",
+      "icon": "📚",
+      "category": "实用网站",
+      "role": "life",
+      "tags": [
+        "学习",
+        "党建",
+        "理论",
+        "强国"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "superlib",
+      "name": "全国图书馆参考咨询联盟",
+      "url": "http://www.ucdrs.superlib.net/",
+      "description": "全国图书馆文献传递和参考咨询",
+      "icon": "🏛️",
+      "category": "实用网站",
+      "role": "life",
+      "tags": [
+        "图书馆",
+        "文献",
+        "咨询",
+        "传递"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "earthol",
+      "name": "地球在线",
+      "url": "https://www.earthol.com/",
+      "description": "卫星地图和谷歌地球中文地标分享",
+      "icon": "🌍",
+      "category": "实用网站",
+      "role": "life",
+      "tags": [
+        "地图",
+        "卫星",
+        "地球",
+        "地标"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "dangjian",
+      "name": "共产党员网",
+      "url": "https://www.12371.cn/",
+      "description": "中国共产党官方门户网站",
+      "icon": "🚩",
+      "category": "实用网站",
+      "role": "life",
+      "tags": [
+        "党建",
+        "党员",
+        "官方",
+        "门户"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "jianshu",
+      "name": "简书",
+      "url": "https://www.jianshu.com/",
+      "description": "优质创作社区和博客平台",
+      "icon": "✍️",
+      "category": "实用网站",
+      "role": "life",
+      "tags": [
+        "写作",
+        "博客",
+        "社区",
+        "创作"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "taobao",
+      "name": "淘宝",
+      "url": "https://www.taobao.com/",
+      "description": "阿里巴巴旗下综合电商平台",
+      "icon": "🛒",
+      "category": "实用网站",
+      "role": "life",
+      "tags": [
+        "购物",
+        "电商",
+        "淘宝",
+        "商品"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "dangdang",
+      "name": "当当网",
+      "url": "http://book.dangdang.com/",
+      "description": "综合图书和音像制品电商平台",
+      "icon": "📖",
+      "category": "实用网站",
+      "role": "life",
+      "tags": [
+        "图书",
+        "购物",
+        "当当",
+        "电商"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "url": "https://weibo.com/",
+      "description": "中国最大的社交媒体平台",
+      "icon": "📢",
+      "category": "实用网站",
+      "role": "life",
+      "tags": [
+        "社交",
+        "微博",
+        "资讯",
+        "热点"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "tengxun-video",
+      "name": "腾讯视频",
+      "url": "https://v.qq.com/",
+      "description": "腾讯旗下在线视频平台",
+      "icon": "📺",
+      "category": "实用网站",
+      "role": "life",
+      "tags": [
+        "视频",
+        "腾讯",
+        "影视",
+        "综艺"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "description": "AI驱动的学术搜索引擎",
+      "icon": "🔍",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "搜索",
+        "学术",
+        "Perplexity"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "url": "https://consensus.app/",
+      "description": "AI学术论文搜索引擎，基于证据回答",
+      "icon": "📊",
+      "category": "AI学术",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "论文",
+        "搜索",
+        "证据"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "scite",
+      "name": "SCITE",
+      "url": "https://scite.ai/",
+      "description": "AI智能引文分析工具",
+      "icon": "📈",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "引文",
+        "分析",
+        "论文"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "url": "https://openalex.org/",
+      "description": "开放的学术知识图谱",
+      "icon": "🌐",
+      "category": "论文检索",
+      "role": "graduate",
+      "tags": [
+        "论文",
+        "开放",
+        "知识图谱",
+        "学术"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "endnote",
+      "name": "EndNote",
+      "url": "https://endnote.com/",
+      "description": "Clarivate出品的文献管理工具",
+      "icon": "📘",
+      "category": "文献管理",
+      "role": "graduate",
+      "tags": [
+        "文献",
+        "管理",
+        "EndNote",
+        "引用"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "mendeley",
+      "name": "Mendeley",
+      "url": "https://www.mendeley.com/",
+      "description": "Elsevier出品的文献管理和学术社交",
+      "icon": "📗",
+      "category": "文献管理",
+      "role": "graduate",
+      "tags": [
+        "文献",
+        "管理",
+        "Mendeley",
+        "社交"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "latex",
+      "name": "LaTeX",
+      "url": "https://www.latex-project.org/",
+      "description": "高质量的学术排版系统",
+      "icon": "📝",
+      "category": "论文写作",
+      "role": "graduate",
+      "tags": [
+        "LaTeX",
+        "排版",
+        "论文",
+        "学术"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "deepl-write",
+      "name": "DeepL Write",
+      "url": "https://www.deepl.com/write",
+      "description": "AI英文写作助手，改善表达和语法",
+      "icon": "✍️",
+      "category": "论文写作",
+      "role": "graduate",
+      "tags": [
+        "AI",
+        "写作",
+        "英文",
+        "润色"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "roberta",
+      "name": "RoboFlow",
+      "url": "https://roboflow.com/",
+      "description": "计算机视觉数据标注和模型训练平台",
+      "icon": "🤖",
+      "category": "算力平台",
+      "role": "graduate",
+      "tags": [
+        "CV",
+        "标注",
+        "训练",
+        "平台"
+      ],
+      "addedAt": "2024-06-01",
+      "pinned": false
+    },
+    {
+      "id": "kaggle",
+      "name": "Kaggle",
+      "url": "https://www.kaggle.com/",
+      "description": "数据科学竞赛和机器学习社区",
+      "icon": "🏆",
+      "category": "算力平台",
+      "role": "graduate",
+      "tags": [
+        "数据科学",
+        "竞赛",
+        "Kaggle",
+        "GPU"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "pandas",
+      "name": "Pandas",
+      "url": "https://pandas.pydata.org/",
+      "description": "Python数据分析核心库",
+      "icon": "🐼",
+      "category": "科研绘图",
+      "role": "graduate",
+      "tags": [
+        "Python",
+        "数据分析",
+        "表格",
+        "处理"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "plotly",
+      "name": "Plotly",
+      "url": "https://plotly.com/python/",
+      "description": "Python交互式数据可视化库",
+      "icon": "📊",
+      "category": "科研绘图",
+      "role": "graduate",
+      "tags": [
+        "Python",
+        "可视化",
+        "交互",
+        "图表"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "tikz",
+      "name": "PGF/TikZ",
+      "url": "https://tikz.dev/",
+      "description": "LaTeX中的专业绘图工具",
+      "icon": "📐",
+      "category": "科研绘图",
+      "role": "graduate",
+      "tags": [
+        "LaTeX",
+        "绘图",
+        "TikZ",
+        "专业"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "npm",
+      "name": "npm",
+      "url": "https://www.npmjs.com/",
+      "description": "Node.js包管理器",
+      "icon": "📦",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "npm",
+        "Node.js",
+        "包管理",
+        "前端"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "webpack",
+      "name": "Webpack",
+      "url": "https://webpack.js.org/",
+      "description": "JavaScript模块打包工具",
+      "icon": "📦",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "打包",
+        "Webpack",
+        "模块",
+        "前端"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "nuxt",
+      "name": "Nuxt.js",
+      "url": "https://nuxt.com/",
+      "description": "基于Vue.js的全栈框架",
+      "icon": "💚",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "Vue",
+        "SSR",
+        "全栈",
+        "Nuxt"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "svelte",
+      "name": "Svelte",
+      "url": "https://svelte.dev/",
+      "description": "编译时前端框架，无虚拟DOM",
+      "icon": "🔥",
+      "category": "前端开发",
+      "role": "engineer",
+      "tags": [
+        "Svelte",
+        "前端",
+        "编译",
+        "框架"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "go-swagger",
+      "name": "Go语言中文网",
+      "url": "https://studygolang.com/",
+      "description": "Go语言中文学习社区",
+      "icon": "🐹",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "Go",
+        "中文",
+        "学习",
+        "社区"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "python-doc",
+      "name": "Python官方文档",
+      "url": "https://docs.python.org/zh-cn/3/",
+      "description": "Python编程语言官方中文文档",
+      "icon": "🐍",
+      "category": "编程语言",
+      "role": "engineer",
+      "tags": [
+        "Python",
+        "文档",
+        "官方",
+        "中文"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "linux-command",
+      "name": "Linux命令大全",
+      "url": "https://www.linuxcool.com/",
+      "description": "Linux命令行速查手册",
+      "icon": "🐧",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "Linux",
+        "命令",
+        "终端",
+        "速查"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "url": "https://kubernetes.io/",
+      "description": "容器编排和管理平台",
+      "icon": "☸️",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "容器",
+        "编排",
+        "K8s",
+        "微服务"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "minio",
+      "name": "MinIO",
+      "url": "https://min.io/",
+      "description": "高性能对象存储服务",
+      "icon": "💾",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "存储",
+        "对象存储",
+        "MinIO",
+        "开源"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "redis-doc",
+      "name": "Redis官方文档",
+      "url": "https://redis.io/docs/",
+      "description": "Redis官方中文文档",
+      "icon": "📄",
+      "category": "数据库",
+      "role": "engineer",
+      "tags": [
+        "Redis",
+        "文档",
+        "缓存",
+        "数据库"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "elastic",
+      "name": "Elasticsearch",
+      "url": "https://www.elastic.co/",
+      "description": "分布式搜索和分析引擎",
+      "icon": "🔍",
+      "category": "数据库",
+      "role": "engineer",
+      "tags": [
+        "搜索",
+        "Elastic",
+        "分析",
+        "引擎"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "url": "https://git-scm.com/",
+      "description": "分布式版本控制系统",
+      "icon": "📦",
+      "category": "代码托管",
+      "role": "engineer",
+      "tags": [
+        "Git",
+        "版本控制",
+        "代码",
+        "管理"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "vercel-cli",
+      "name": "Vercel CLI",
+      "url": "https://vercel.com/docs/cli",
+      "description": "Vercel命令行部署工具",
+      "icon": "⌨️",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "Vercel",
+        "CLI",
+        "部署",
+        "命令行"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "url": "https://www.cloudflare.com/",
+      "description": "全球CDN和网络安全服务",
+      "icon": "🛡️",
+      "category": "DevOps",
+      "role": "engineer",
+      "tags": [
+        "CDN",
+        "安全",
+        "DNS",
+        "Cloudflare"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "geeksforgeeks",
+      "name": "GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/",
+      "description": "计算机科学学习和面试准备平台",
+      "icon": "💻",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "算法",
+        "面试",
+        "计算机",
+        "教程"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "hackerrank",
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/",
+      "description": "编程挑战和技能认证平台",
+      "icon": "🏆",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "编程",
+        "挑战",
+        "认证",
+        "面试"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "leetcode-ig",
+      "name": "LeetCode国际版",
+      "url": "https://leetcode.com/",
+      "description": "LeetCode国际版，英文题目",
+      "icon": "🌍",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "算法",
+        "LeetCode",
+        "英文",
+        "面试"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    },
+    {
+      "id": "mathorcup",
+      "name": "MathorCup",
+      "url": "https://www.mathorcup.org/",
+      "description": "高校数学建模挑战赛",
+      "icon": "📐",
+      "category": "竞赛刷题",
+      "role": "student",
+      "tags": [
+        "数学建模",
+        "竞赛",
+        "MathorCup"
+      ],
+      "addedAt": "2024-01-01",
+      "pinned": false
+    }
+  ]
+}

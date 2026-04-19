@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 字体 */
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #3D4852;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* 滚动条 - Neumorphism 风格 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #E0E5EC;
+  box-shadow: inset 2px 2px 5px rgb(163, 177, 198, 0.4), inset -2px -2px 5px rgba(255, 255, 255, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: #E0E5EC;
+  border-radius: 4px;
+  box-shadow: 3px 3px 6px rgb(163, 177, 198, 0.5), -3px -3px 6px rgba(255, 255, 255, 0.5);
+}
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: 4px 4px 8px rgb(163, 177, 198, 0.6), -4px -4px 8px rgba(255, 255, 255, 0.6);
+}
+
+::selection {
+  background: var(--role-accent);
+  color: white;
+}
+
+/* 隐藏滚动条但保留功能 */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

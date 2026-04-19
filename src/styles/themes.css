@@ -1,0 +1,123 @@
+/* Neumorphism 基础主题 */
+:root {
+  /* 基础表面色 - 所有角色共享 */
+  --neu-bg: #E0E5EC;
+  --neu-text: #3D4852;
+  --neu-muted: #6B7280;
+  --neu-placeholder: #A0AEC0;
+
+  /* 阴影色 - 所有角色共享 */
+  --shadow-light: rgba(255, 255, 255, 0.5);
+  --shadow-dark: rgb(163, 177, 198, 0.6);
+  --shadow-light-hover: rgba(255, 255, 255, 0.6);
+  --shadow-dark-hover: rgb(163, 177, 198, 0.7);
+
+  /* 角色强调色 - 研究生小骆 (靛蓝) */
+  --role-accent: #6C63FF;
+  --role-accent-light: #8B84FF;
+  --role-accent-rgb: 108, 99, 255;
+}
+
+[data-role="engineer"] {
+  --role-accent: #10b981;
+  --role-accent-light: #34d399;
+  --role-accent-rgb: 16, 185, 129;
+}
+
+[data-role="counselor"] {
+  --role-accent: #f97316;
+  --role-accent-light: #fb923c;
+  --role-accent-rgb: 249, 115, 22;
+}
+
+[data-role="student"] {
+  --role-accent: #8b5cf6;
+  --role-accent-light: #a78bfa;
+  --role-accent-rgb: 139, 92, 246;
+}
+
+[data-role="life"] {
+  --role-accent: #ec4899;
+  --role-accent-light: #f472b6;
+  --role-accent-rgb: 236, 72, 153;
+}
+
+/* Neumorphism 阴影工具类 */
+.neu-flat {
+  background: var(--neu-bg);
+  box-shadow: 9px 9px 16px var(--shadow-dark), -9px -9px 16px var(--shadow-light);
+}
+
+.neu-flat-sm {
+  background: var(--neu-bg);
+  box-shadow: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
+}
+
+.neu-convex {
+  background: var(--neu-bg);
+  box-shadow: 12px 12px 20px var(--shadow-dark-hover), -12px -12px 20px var(--shadow-light-hover);
+}
+
+.neu-concave {
+  background: var(--neu-bg);
+  box-shadow: inset 6px 6px 10px var(--shadow-dark), inset -6px -6px 10px var(--shadow-light);
+}
+
+.neu-concave-deep {
+  background: var(--neu-bg);
+  box-shadow: inset 10px 10px 20px var(--shadow-dark-hover), inset -10px -10px 20px var(--shadow-light-hover);
+}
+
+.neu-concave-sm {
+  background: var(--neu-bg);
+  box-shadow: inset 3px 3px 6px var(--shadow-dark), inset -3px -3px 6px var(--shadow-light);
+}
+
+.neu-btn {
+  background: var(--neu-bg);
+  box-shadow: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
+  transition: all 0.3s ease-out;
+}
+
+.neu-btn:hover {
+  box-shadow: 7px 7px 14px var(--shadow-dark-hover), -7px -7px 14px var(--shadow-light-hover);
+  transform: translateY(-1px);
+}
+
+.neu-btn:active {
+  box-shadow: inset 3px 3px 6px var(--shadow-dark), inset -3px -3px 6px var(--shadow-light);
+  transform: translateY(0.5px);
+}
+
+.neu-accent {
+  background: var(--role-accent);
+  color: white;
+  box-shadow: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
+  transition: all 0.3s ease-out;
+}
+
+.neu-accent:hover {
+  background: var(--role-accent-light);
+  box-shadow: 7px 7px 14px var(--shadow-dark-hover), -7px -7px 14px var(--shadow-light-hover);
+  transform: translateY(-1px);
+}
+
+.neu-accent:active {
+  box-shadow: inset 3px 3px 6px rgba(var(--role-accent-rgb), 0.4), inset -3px -3px 6px rgba(var(--role-accent-rgb), 0.2);
+  transform: translateY(0.5px);
+}
+
+/* 浮动动画 */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
